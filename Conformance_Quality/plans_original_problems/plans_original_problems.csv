@@ -1,0 +1,2037 @@
+process_id,case_id,activity_name,timestamp,arguments
+36690562,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+36690562,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'example.wav']"
+36690562,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+36690562,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Audio Splicer>', 'add reverb']"
+36690562,1,Audio-to-Image,2024-02-01 14:43:30.490405,['<Audio Effects>']
+27258164,1,Voice Changer,2024-02-01 14:43:26.490405,"['example.wav', 'female']"
+27258164,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Voice Changer>']
+27258164,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+27258164,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Audio-to-Image>', 'example.jpg']"
+13018270,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example.wav', 'example2.wav']"
+13018270,1,Audio Effects,2024-02-01 14:43:27.490405,"['<Audio Splicer>', 'Add a reverb effect with a 2-second decay, followed by an equalization boosting the bass frequencies by 3dB']"
+13018270,1,Text Simplifier,2024-02-01 14:43:28.490405,"['Add a reverb effect with a 2-second decay, followed by an equalization boosting the bass frequencies by 3dB']"
+15414201,1,Text-to-Video,2024-02-01 14:43:26.490405,['surprise party in a beautiful garden']
+15414201,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', 'double speed']"
+31664374,1,Text Paraphraser,2024-02-01 14:43:26.490405,"[""Gardening is a great hobby that can be both relaxing and rewarding. To get started, you'll need to pick a sunny location to plant your seeds. Water your plants regularly and keep an eye on them for pests. With some patience and care, your garden will thrive.""]"
+31664374,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+31664374,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Summarizer>']"
+11307128,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+11307128,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Splicer>']
+11307128,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+16333963,1,Video Search,2024-02-01 14:43:26.490405,['example']
+16333963,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Video Search>', 'example.wav']"
+16333963,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+16333963,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Stabilizer>']
+30160324,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+30160324,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+30160324,1,Text Translator,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+30160324,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Translator>']
+30160324,1,Image Downloader,2024-02-01 14:43:30.490405,['<URL Extractor>']
+76244107,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio/example.wav']
+76244107,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+76244107,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio Downloader>']"
+76244107,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+29216690,1,Text Paraphraser,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog']
+29216690,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+29216690,1,URL Extractor,2024-02-01 14:43:28.490405,['The quick brown fox jumps over the lazy dog']
+79560754,1,Text Grammar Checker,2024-02-01 14:43:26.490405,"['Environmntal conservation is verry important to save our planet. Ther are many ways to protect the natur world, like recycling, reducin water waste, nd planting trees.']"
+79560754,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+79560754,1,Topic Generator,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+79560754,1,Text-to-Video,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+70467871,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+70467871,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+70467871,1,Image-to-Video,2024-02-01 14:43:28.490405,"['example1.jpg', 'example2.jpg']"
+70467871,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', '<Audio-to-Text>']"
+11545630,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.wav']
+11545630,1,Video-to-Text,2024-02-01 14:43:27.490405,['example.mp4']
+11545630,1,Text Search,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+11545630,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Audio Downloader>', '<Text Search>']"
+17603966,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+17603966,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+17603966,1,URL Extractor,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+17603966,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+26579656,1,Video Downloader,2024-02-01 14:43:26.490405,['example.mp4']
+26579656,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Video Downloader>']
+26579656,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+26579656,1,Video-to-Image,2024-02-01 14:43:29.490405,['<Video Stabilizer>']
+58963254,1,Audio Downloader,2024-02-01 14:43:26.490405,['example2.wav']
+58963254,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Audio Downloader>', '<Audio Downloader>']"
+58963254,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+58963254,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Audio-to-Image>']
+58963254,1,Text Paraphraser,2024-02-01 14:43:30.490405,['<Image-to-Text>']
+58963254,1,Keyword Extractor,2024-02-01 14:43:31.490405,['<Text Paraphraser>']
+58963254,1,Topic Generator,2024-02-01 14:43:32.490405,['<Keyword Extractor>']
+13921012,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+13921012,1,Text Summarizer,2024-02-01 14:43:27.490405,"['A male speaker with a deep voice and a slow pace of speech is hard to understand. Please change to a higher-pitched, faster-speaking female voice.']"
+13921012,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Text Summarizer>']"
+21983458,1,Image Search (by Image),2024-02-01 14:43:26.490405,['example.jpg']
+21983458,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Image Search (by Image)>']
+21983458,1,Image-to-Video,2024-02-01 14:43:28.490405,"['example.jpg', '<Audio-to-Image>']"
+10863709,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/video.mp4']
+10863709,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Downloader>']
+10863709,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Video-to-Image>', 'example.jpg']"
+10863709,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Image-to-Video>']
+10863709,1,Video-to-Text,2024-02-01 14:43:30.490405,['<Video Stabilizer>']
+82794359,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+82794359,1,Article Spinner,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+82794359,1,URL Extractor,2024-02-01 14:43:28.490405,['<Article Spinner>']
+82794359,1,Audio Effects,2024-02-01 14:43:29.490405,"['example.wav', ""user's instructions""]"
+61036052,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/example_video.mp4']
+61036052,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+61036052,1,Text Simplifier,2024-02-01 14:43:28.490405,['Please raise the pitch of the extracted audio by two semitones']
+61036052,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Video-to-Audio>', '<Text Simplifier>']"
+16490659,1,Text Simplifier,2024-02-01 14:43:26.490405,['example.txt']
+16490659,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+16490659,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+16490659,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+18591337,1,Text Simplifier,2024-02-01 14:43:26.490405,['Quantum mechanics primarily deals with the behavior of subatomic particles in relation to matter and energy at a quantum level.']
+18591337,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['example.wav']
+18591337,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+18591337,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Text-to-Audio>', 'female']"
+16243108,1,Text Search,2024-02-01 14:43:26.490405,['The Turing Test movie discussion']
+16243108,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Search>']
+16243108,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+16243108,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Sentiment Analysis>']
+16243108,1,Voice Changer,2024-02-01 14:43:30.490405,"['<Text-to-Audio>', 'robotic female']"
+16243108,1,Audio-to-Image,2024-02-01 14:43:31.490405,['<Voice Changer>']
+16243108,1,Image Style Transfer,2024-02-01 14:43:32.490405,"['<Audio-to-Image>', 'example.jpg']"
+62966459,1,Image Search,2024-02-01 14:43:26.490405,['example_text_query.jpg']
+62966459,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Search>', '<Image Search>']"
+62966459,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Image-to-Video>']
+30674665,1,Text Paraphraser,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog.']
+30674665,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'reverb, chorus, equalization']"
+30674665,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Audio Effects>']
+13251330,1,Video Downloader,2024-02-01 14:43:26.490405,['example.mp4']
+13251330,1,Audio Downloader,2024-02-01 14:43:27.490405,['example.wav']
+13251330,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Downloader>']
+13251330,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Audio Downloader>']"
+13543080,1,Voice Changer,2024-02-01 14:43:26.490405,"['example.wav', 'modify tone, pitch, gender']"
+13543080,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Voice Changer>']"
+13543080,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+13543080,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Stabilizer>']
+23190139,1,Video Downloader,2024-02-01 14:43:26.490405,['example.com/video.mp4']
+23190139,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Video Downloader>', '1.5x faster']"
+23190139,1,Audio-to-Text,2024-02-01 14:43:28.490405,['example.wav']
+25671101,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+25671101,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+25671101,1,Image Search (by Image),2024-02-01 14:43:28.490405,['<Image Colorizer>']
+25671101,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Audio-to-Image>', '<Image Search (by Image)>']"
+33439445,1,Text Grammar Checker,2024-02-01 14:43:26.490405,['text']
+33439445,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'add reverb']"
+33439445,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Effects>']
+26380110,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+26380110,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+26380110,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Text-to-Image>']
+26380110,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Colorizer>']
+33359257,1,Text Translator,2024-02-01 14:43:26.490405,"['La vie est belle, profitez-en!']"
+33359257,1,Text Expander,2024-02-01 14:43:27.490405,['<Text Translator>']
+33359257,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Text Expander>']
+89932753,1,Topic Generator,2024-02-01 14:43:26.490405,"[""Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the Earth's orbit, or they may be caused by human activities, such as the burning of fossil fuels and deforestation.""]"
+89932753,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Topic Generator>']
+28140414,1,Text-to-Audio,2024-02-01 14:43:26.490405,['I absolutely loved the movie Inception! It had an exceptional plot and outstanding visual effects.']
+28140414,1,Video Voiceover,2024-02-01 14:43:27.490405,"['example.mp4', '<Text-to-Audio>']"
+30759172,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+30759172,1,Image Colorizer,2024-02-01 14:43:27.490405,['<Video-to-Image>']
+30759172,1,Image Search (by Image),2024-02-01 14:43:28.490405,['<Image Colorizer>']
+30759172,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Colorizer>']
+23097348,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+23097348,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+23097348,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+23097348,1,Image Search,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+29327419,1,Keyword Extractor,2024-02-01 14:43:26.490405,"[""The Battle of Waterloo was a pivotal event in European history. Napoleon Bonaparte was defeated by the Duke of Wellington, marking the end of Napoleon's reign.""]"
+29327419,1,Image Search,2024-02-01 14:43:27.490405,['<Keyword Extractor>']
+29327419,1,Video-to-Image,2024-02-01 14:43:28.490405,['example.mp4']
+29327419,1,Image Search (by Image),2024-02-01 14:43:29.490405,['<Video-to-Image>']
+13587508,1,Text-to-Audio,2024-02-01 14:43:26.490405,['given text article']
+13587508,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'example.wav']"
+13587508,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+91590573,1,Audio Splicer,2024-02-01 14:43:26.490405,"['<Voice Changer>', '<Video-to-Audio>']"
+91590573,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Splicer>']
+91590573,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Noise Reduction>', 'higher pitch']"
+91590573,1,Video-to-Audio,2024-02-01 14:43:29.490405,['example.mp4']
+91590573,1,Video Synchronization,2024-02-01 14:43:30.490405,"['example.mp4', '<Audio Splicer>']"
+91590573,1,Video Stabilizer,2024-02-01 14:43:31.490405,['<Video Synchronization>']
+16283641,1,Text-to-Image,2024-02-01 14:43:26.490405,['Sunset by the lake']
+16283641,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+16283641,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Video-to-Image>']"
+21790319,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio/example.wav']
+21790319,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Audio Downloader>', 'higher, feminine']"
+21790319,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Voice Changer>']
+30848933,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.mp4']
+30848933,1,Video Voiceover,2024-02-01 14:43:27.490405,"['<Video Downloader>', 'example.wav']"
+69499607,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+69499607,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+69499607,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+69499607,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+69499607,1,Video Synchronization,2024-02-01 14:43:30.490405,"['example.mp4', '<Text-to-Audio>']"
+69499607,1,Video Stabilizer,2024-02-01 14:43:31.490405,['<Video Synchronization>']
+11576405,1,Text Search,2024-02-01 14:43:26.490405,['benefits of forest conservation']
+11576405,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Text Search>']
+11576405,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Grammar Checker>']"
+14392782,1,Audio Downloader,2024-02-01 14:43:26.490405,['http://example.com/audio.example.wav']
+14392782,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+14392782,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Audio-to-Text>']"
+16980316,1,Text Translator,2024-02-01 14:43:26.490405,['Spanish Article']
+16980316,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Translator>']
+16980316,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'reverb, equalization']"
+29345727,1,Text Search,2024-02-01 14:43:26.490405,['example.txt']
+29345727,1,Video Search,2024-02-01 14:43:27.490405,['<Text Search>']
+29345727,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Video Search>']
+22836030,1,Text Search,2024-02-01 14:43:26.490405,['improving sleep quality']
+22836030,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Search>']
+22836030,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+22836030,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Text-to-Video>', 'appropriate speed']"
+22836030,1,Video-to-Image,2024-02-01 14:43:30.490405,['<Video Speed Changer>']
+22836030,1,Image-to-Text,2024-02-01 14:43:31.490405,['<Video-to-Image>']
+22836030,1,Text-to-Image,2024-02-01 14:43:32.490405,['<Image-to-Text>']
+26305900,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+26305900,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Video-to-Image>']
+26305900,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Search (by Image)>']
+26305900,1,Image Colorizer,2024-02-01 14:43:29.490405,['<Image Search (by Image)>']
+26739474,1,Text Translator,2024-02-01 14:43:26.490405,"['Das Wetter heute ist unglaublich schön. Die Sonne scheint, und der Himmel ist blau. Ideal zum Wandern in den Bergen.']"
+26739474,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Translator>']
+26739474,1,Image Search,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+28638698,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+28638698,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Video-to-Image>']
+28638698,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Image>']
+27485626,1,Text Search,2024-02-01 14:43:26.490405,['success']
+27485626,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+27485626,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Text Search>']"
+21794459,1,Audio Downloader,2024-02-01 14:43:26.490405,['http://example.com/music']
+21794459,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+21794459,1,Text-to-Audio,2024-02-01 14:43:28.490405,['Welcome to our podcast.']
+21794459,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Audio Noise Reduction>', '<Text-to-Audio>']"
+21433404,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+21433404,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Splicer>']
+21433404,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+21433404,1,Image Search (by Image),2024-02-01 14:43:29.490405,['<Audio-to-Image>']
+17604395,1,Text Paraphraser,2024-02-01 14:43:26.490405,"['The performance of our team has been outstanding lately, and they deserve all the accolades.']"
+17604395,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+17604395,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+17604395,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+17604395,1,Audio Effects,2024-02-01 14:43:30.490405,"['<Text-to-Audio>', 'appropriate audio effects']"
+17308325,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+17308325,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['I am feeling very happy today!']
+17308325,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Text Sentiment Analysis>']"
+31847149,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://example.com/audio.wav']
+31847149,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Audio Downloader>']"
+31847149,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Downloader>']
+31847149,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Audio Downloader>', 'deeper tone, lower pitch']"
+19574598,1,Text Simplifier,2024-02-01 14:43:26.490405,"['Climate change is a major concern, with increasing temperatures and melting ice caps causing problems for animals and human health.']"
+19574598,1,Text Expander,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+19574598,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Text Expander>']
+19574598,1,Text Paraphraser,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+19574598,1,Text Search,2024-02-01 14:43:30.490405,['<Text Paraphraser>']
+19574598,1,Video Voiceover,2024-02-01 14:43:31.490405,"['example.mp4', '<Text Paraphraser>']"
+19574598,1,Video Stabilizer,2024-02-01 14:43:32.490405,['<Video Voiceover>']
+19574598,1,Video Synchronization,2024-02-01 14:43:33.490405,"['<Video Stabilizer>', 'example.wav']"
+20681073,1,Text Expander,2024-02-01 14:43:26.490405,['Make the sound more dramatic']
+20681073,1,Audio Downloader,2024-02-01 14:43:27.490405,['http://www.example.com/example.wav']
+20681073,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Text Expander>']"
+67337974,1,Text Search,2024-02-01 14:43:26.490405,['Eiffel Tower cultural significance']
+67337974,1,Text Translator,2024-02-01 14:43:27.490405,['<Text Search>']
+67337974,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Text Translator>']
+67337974,1,Image Search,2024-02-01 14:43:29.490405,['Eiffel Tower cultural significance']
+24276856,1,Image Downloader,2024-02-01 14:43:26.490405,['http://example.com/image.jpg']
+24276856,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.png']"
+24276856,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Downloader>']
+24276856,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Image-to-Video>']
+77117864,1,Video Search,2024-02-01 14:43:26.490405,['healthy cooking']
+77117864,1,Video Voiceover,2024-02-01 14:43:27.490405,"['<Video Search>', 'Eating healthy is critical for our well-being. In this video, I am going to show you how to cook a delicious and nutritious meal.']"
+77117864,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Voiceover>']
+77117864,1,Audio Noise Reduction,2024-02-01 14:43:29.490405,['<Video-to-Audio>']
+30066404,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+30066404,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+30066404,1,Image Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+30066404,1,Video Search,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+33534363,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/beach-image']
+33534363,1,Image Stitcher,2024-02-01 14:43:27.490405,"['example.jpg', '<Image Downloader>']"
+33534363,1,Image Search (by Image),2024-02-01 14:43:28.490405,['example_ref.jpg']
+33534363,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Stitcher>', '<Image Search (by Image)>']"
+23228967,1,Text Expander,2024-02-01 14:43:26.490405,['example.txt']
+23228967,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Expander>']
+23228967,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+23228967,1,Video Downloader,2024-02-01 14:43:29.490405,['<URL Extractor>']
+15284557,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+15284557,1,Topic Generator,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+15284557,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+22976614,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['In the year 2050, technology has advanced to unimaginable heights.']"
+22976614,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'example.wav']"
+22976614,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+23155749,1,Image Downloader,2024-02-01 14:43:26.490405,['example.com/example.jpg']
+23155749,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Image Downloader>']
+23155749,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Image Search (by Image)>']"
+23155749,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', 'This is a great presentation about our latest products.']"
+23155749,1,Video-to-Audio,2024-02-01 14:43:30.490405,['<Video Voiceover>']
+23155749,1,Audio Noise Reduction,2024-02-01 14:43:31.490405,['<Video-to-Audio>']
+23155749,1,Audio-to-Text,2024-02-01 14:43:32.490405,['<Video-to-Audio>']
+29929490,1,Text-to-Video,2024-02-01 14:43:26.490405,['text description']
+29929490,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Text-to-Video>', 'example.wav']"
+29929490,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+29929490,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+29929490,1,Text Summarizer,2024-02-01 14:43:30.490405,['<Text Simplifier>']
+29929490,1,Audio Effects,2024-02-01 14:43:31.490405,"['example.wav', 'audio effects']"
+19318543,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+19318543,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+19318543,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', '<Image Colorizer>']"
+84887300,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://example.com/example.wav']
+84887300,1,Text Translator,2024-02-01 14:43:27.490405,['Aplica reverberación y ecualización al archivo de audio']
+84887300,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Text Translator>']"
+22328789,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example-image.jpg']
+22328789,1,Image Stitcher,2024-02-01 14:43:27.490405,"['example.jpg', '<Image Downloader>']"
+22328789,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Stitcher>']
+22328789,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Colorizer>', 'example_style.jpg']"
+18169831,1,Article Spinner,2024-02-01 14:43:26.490405,['AI technology article']
+18169831,1,URL Extractor,2024-02-01 14:43:27.490405,['<Article Spinner>']
+18169831,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Article Spinner>']
+18169831,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+18169831,1,Voice Changer,2024-02-01 14:43:30.490405,"['<Text-to-Audio>', 'female, higher tone and pitch']"
+14394517,1,Text Expander,2024-02-01 14:43:26.490405,['A beautiful sunset over a remote mountain']
+14394517,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Expander>']
+14394517,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Text-to-Video>', 'example.wav']"
+12347598,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.wav']
+12347598,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+12347598,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Audio-to-Text>']"
+17047996,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+17047996,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Video Stabilizer>', 'example.wav']"
+17047996,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Synchronization>', 'adjust speed']"
+17047996,1,Audio-to-Text,2024-02-01 14:43:29.490405,['example.wav']
+20897254,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+20897254,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Image-to-Video>', 'example.wav']"
+20897254,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+11848227,1,Text Grammar Checker,2024-02-01 14:43:26.490405,"[""My cat love playng with strings, and the fsh is it's fovorite food.""]"
+11848227,1,Text Search,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+11848227,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Search>']
+12527002,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+12527002,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+12527002,1,Image Search,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+12527002,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+13787129,1,Voice Changer,2024-02-01 14:43:26.490405,"['example1.wav', 'gender: female, pitch: higher, tone: softer']"
+13787129,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['example2.wav']
+13787129,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Voice Changer>', '<Audio Noise Reduction>']"
+13787129,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Audio Splicer>']
+24782437,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.jpg']
+24782437,1,Audio-to-Text,2024-02-01 14:43:27.490405,['example.wav']
+24782437,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+24782437,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Text-to-Image>', '<Image Downloader>']"
+26959395,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+26959395,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'increase tone and pitch']"
+26959395,1,Video-to-Text,2024-02-01 14:43:28.490405,['example.mp4']
+15618640,1,Video Synchronization,2024-02-01 14:43:26.490405,"['example.mp4', 'example.wav']"
+15618640,1,Audio-to-Text,2024-02-01 14:43:27.490405,['example.wav']
+15618640,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+15618640,1,Image Colorizer,2024-02-01 14:43:29.490405,['<Video-to-Image>']
+23858266,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+23858266,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', '<Image-to-Text>']"
+23858266,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Audio Effects>', 'example2.wav']"
+23858266,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+25305165,1,Text Translator,2024-02-01 14:43:26.490405,['Bonjour tout le monde!']
+25305165,1,Video Search,2024-02-01 14:43:27.490405,['<Text Translator>']
+25305165,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Search>']
+25305165,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Search>', 'example.wav']"
+11305011,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+11305011,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'change tone, pitch, and gender']"
+11305011,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Voice Changer>']
+11305011,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Audio Noise Reduction>', 'example-2.wav']"
+24698156,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example-image.jpg']
+24698156,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+24698156,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+17529566,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+17529566,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+17529566,1,Text Simplifier,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+17529566,1,URL Extractor,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+17529566,1,Text Downloader,2024-02-01 14:43:30.490405,['<URL Extractor>']
+17529566,1,Audio Effects,2024-02-01 14:43:31.490405,"['example.wav', 'reverb, equalization']"
+23305290,1,Text Search,2024-02-01 14:43:26.490405,['how to slow down videos']
+23305290,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Text Search>']
+23305290,1,Video Stabilizer,2024-02-01 14:43:28.490405,['example.mp4']
+23305290,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Text Grammar Checker>']"
+29917341,1,Image Stitcher,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+29917341,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Stitcher>']
+29917341,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+29917341,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+16336784,1,Text-to-Video,2024-02-01 14:43:26.490405,['A cat playing with a ball in a park on a sunny day. The cat chases the ball and eventually catches it.']
+16336784,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+16336784,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Text-to-Video>', 'example.wav']"
+28120861,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,['I am unsatisfied with the service I received today.']
+28120861,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Sentiment Analysis>']
+28120861,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'reverb']"
+28120861,1,Audio Noise Reduction,2024-02-01 14:43:29.490405,['<Audio Effects>']
+10023607,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+10023607,1,Text-to-Image,2024-02-01 14:43:27.490405,['beautiful sunset on the beach']
+10023607,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Video-to-Image>', '<Text-to-Image>']"
+31376398,1,Text Expander,2024-02-01 14:43:26.490405,['Amazing sunset at the beach']
+31376398,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Expander>']
+31376398,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+13328287,1,Keyword Extractor,2024-02-01 14:43:26.490405,['text document']
+13328287,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Keyword Extractor>']
+13328287,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+13328287,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Keyword Extractor>']"
+33377661,1,Article Spinner,2024-02-01 14:43:26.490405,['Example Article']
+33377661,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Article Spinner>']
+33377661,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+33377661,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', 'adjust speed']"
+33377661,1,Video-to-Image,2024-02-01 14:43:30.490405,['<Video Speed Changer>']
+33377661,1,Image Colorizer,2024-02-01 14:43:31.490405,['<Video-to-Image>']
+80393999,1,Audio Downloader,2024-02-01 14:43:26.490405,['http://example.com/audio/example.wav']
+80393999,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+80393999,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+22556056,1,Image Downloader,2024-02-01 14:43:26.490405,['<URL>']
+22556056,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+22556056,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Image Style Transfer>']"
+12700481,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+12700481,1,Text-to-Audio,2024-02-01 14:43:27.490405,['The quick brown fox jumps over the lazy dog']
+12700481,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Text-to-Audio>']
+12700481,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Text-to-Audio>', 'example.wav']"
+41541341,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example.com/article']
+41541341,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+41541341,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+41541341,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Expander>']
+13590705,1,Text Expander,2024-02-01 14:43:26.490405,['Add echo and change to female voice']
+13590705,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', '<Text Expander>']"
+13590705,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Effects>', '<Text Expander>']"
+22387171,1,Article Spinner,2024-02-01 14:43:26.490405,['The Impact of Artificial Intelligence on Society']
+22387171,1,Text Expander,2024-02-01 14:43:27.490405,['<Article Spinner>']
+22387171,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Expander>']
+22387171,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Text Expander>']
+22387171,1,Video Voiceover,2024-02-01 14:43:30.490405,"['example.mp4', '<Text Grammar Checker>']"
+22387171,1,Video Stabilizer,2024-02-01 14:43:31.490405,['<Video Voiceover>']
+10219651,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+10219651,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+10219651,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', '<Image Colorizer>']"
+10219651,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Colorizer>', '<Image Style Transfer>']"
+10702280,1,Text Downloader,2024-02-01 14:43:26.490405,['example.com']
+10702280,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Downloader>']
+10702280,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+10702280,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Text Downloader>']
+31335856,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+31335856,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+31335856,1,Article Spinner,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+31335856,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Article Spinner>']
+26704563,1,Text Translator,2024-02-01 14:43:26.490405,['example.txt']
+26704563,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Translator>']
+22151225,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+22151225,1,Image-to-Video,2024-02-01 14:43:27.490405,"['example1.jpg', 'example2.jpg']"
+22151225,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Image-to-Video>', '<Video-to-Audio>']"
+28376419,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+28376419,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+28376419,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Image Colorizer>', '<Video-to-Image>']"
+20822854,1,Text Expander,2024-02-01 14:43:26.490405,['CSA']
+20822854,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Expander>']
+20822854,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Text-to-Audio>', 'male']"
+20822854,1,Audio-to-Text,2024-02-01 14:43:29.490405,['<Voice Changer>']
+20822854,1,Audio-to-Image,2024-02-01 14:43:30.490405,['<Voice Changer>']
+31133384,1,Article Spinner,2024-02-01 14:43:26.490405,['artificial intelligence article']
+31133384,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Article Spinner>']
+31133384,1,Video Search,2024-02-01 14:43:28.490405,['artificial intelligence']
+28598024,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['The weather is gloomy, and I feel so down today. I wish there was something to lift my spirits.']"
+28598024,1,Text Simplifier,2024-02-01 14:43:27.490405,"['The weather is gloomy, and I feel so down today. I wish there was something to lift my spirits.']"
+28598024,1,Image Search,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+18966822,1,Text Summarizer,2024-02-01 14:43:26.490405,"['Visit https://example.com/audio-file for the latest audio recordings. These recordings cover a diverse range of topics, from finance to technology.']"
+18966822,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+18966822,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+18966822,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Audio Downloader>', 'reverb']"
+18966822,1,Audio Splicer,2024-02-01 14:43:30.490405,"['<Audio Effects>', 'example.wav']"
+45140777,1,Text-to-Audio,2024-02-01 14:43:26.490405,['example.txt']
+45140777,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'desired tone and gender']"
+45140777,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Text-to-Audio>', '<Voice Changer>']"
+45140777,1,Audio-to-Text,2024-02-01 14:43:29.490405,['<Audio Splicer>']
+11685484,1,Text Search,2024-02-01 14:43:26.490405,['history of space exploration']
+11685484,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Search>']
+11685484,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+11685484,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Keyword Extractor>']"
+28205828,1,Text Search,2024-02-01 14:43:26.490405,['meditation sounds nature']
+28205828,1,URL Extractor,2024-02-01 14:43:27.490405,['<Video Search>']
+28205828,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+28205828,1,Video Search,2024-02-01 14:43:29.490405,['meditation sounds nature']
+28205828,1,Video Downloader,2024-02-01 14:43:30.490405,['<URL Extractor>']
+68601347,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', '1.5x']"
+68601347,1,Topic Generator,2024-02-01 14:43:27.490405,['Internet of Things']
+68601347,1,Text Expander,2024-02-01 14:43:28.490405,['<Topic Generator>']
+68601347,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text Expander>']"
+65794446,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+65794446,1,Text Simplifier,2024-02-01 14:43:27.490405,['example.txt']
+65794446,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+65794446,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Text-to-Audio>']"
+10755258,1,Text Summarizer,2024-02-01 14:43:26.490405,['example.txt']
+10755258,1,Video Search,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+10755258,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+10755258,1,Video Splicer,2024-02-01 14:43:29.490405,"['<Text-to-Video>', '<Video Search>']"
+46379227,1,Video Synchronization,2024-02-01 14:43:26.490405,"['example.mp4', 'example.wav']"
+46379227,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Synchronization>']
+46379227,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+46379227,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Audio Noise Reduction>']
+39491094,1,Keyword Extractor,2024-02-01 14:43:26.490405,['Climate change is a pressing issue that requires immediate action. Renewable energy sources such as solar and wind power can help mitigate the effects of climate change.']
+39491094,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Keyword Extractor>']
+39491094,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Text-to-Audio>', 'example.wav']"
+39491094,1,Audio Noise Reduction,2024-02-01 14:43:29.490405,['<Audio Splicer>']
+31761373,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.com/audio.wav']
+31761373,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Audio Downloader>']"
+31761373,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Downloader>']
+31761373,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Audio-to-Image>', 'example.jpg']"
+18394595,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/videolink.mp4']
+18394595,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Downloader>']
+18394595,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Downloader>', 'example.wav']"
+88016703,1,Text Expander,2024-02-01 14:43:26.490405,['example.txt']
+88016703,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Expander>']
+88016703,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Text-to-Video>', '<Text Expander>']"
+30302713,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+30302713,1,Text Translator,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+30302713,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['example.wav']
+30302713,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Audio Noise Reduction>', '<Text Translator>']"
+55727681,1,Video Search,2024-02-01 14:43:26.490405,['how to paint a sunset tutorial']
+55727681,1,Video Downloader,2024-02-01 14:43:27.490405,['<Video Search>']
+55727681,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Downloader>']
+55727681,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Downloader>']
+30462936,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+30462936,1,Text Expander,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+30462936,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Expander>']
+30462936,1,Image Search,2024-02-01 14:43:29.490405,['<Text Expander>']
+29360324,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+29360324,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+29360324,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Video-to-Image>', '<Image Colorizer>']"
+15212737,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['I recently went on a vacation to Hawaii, and it was the most amazing experience of my life. The beaches were absolutely stunning, and the food was incredibly delicious.']"
+23512890,1,Video Downloader,2024-02-01 14:43:26.490405,['example.mp4']
+23512890,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Video Downloader>']
+23512890,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+23512890,1,Text Summarizer,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+23512890,1,Text-to-Video,2024-02-01 14:43:30.490405,['<Text Summarizer>']
+32128001,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://example.com/voiceover.wav']
+32128001,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+32128001,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', 'example.jpg']"
+32128001,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Stitcher>', '<Image Stitcher>']"
+32128001,1,Video Synchronization,2024-02-01 14:43:30.490405,"['example.mp4', '<Audio Downloader>']"
+33905060,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+33905060,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'reverb, chorus']"
+33905060,1,Image Search,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+28956495,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+28956495,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+28956495,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+20509312,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+20509312,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Downloader>']
+20509312,1,Video-to-Audio,2024-02-01 14:43:28.490405,['example.mp4']
+20509312,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Text-to-Video>', '<Video-to-Audio>']"
+33576919,1,Text-to-Video,2024-02-01 14:43:26.490405,['The beautiful sunset at the beach']
+33576919,1,Audio Downloader,2024-02-01 14:43:27.490405,['https://example.com/audio']
+33576919,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Text-to-Video>', '<Audio Downloader>']"
+16718529,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/image.jpg']
+16718529,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example_style.png']"
+16718529,1,Image Search (by Image),2024-02-01 14:43:28.490405,['<Image Downloader>']
+16718529,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Downloader>']
+13416307,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/video-url']
+13416307,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+13416307,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Downloader>']
+81049953,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+81049953,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Image Colorizer>']
+81049953,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Colorizer>', '<Image Search (by Image)>']"
+74973789,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+74973789,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', '<Image-to-Text>']"
+74973789,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+24197490,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+24197490,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Audio-to-Image>', '<Audio-to-Image>']"
+29651002,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+29651002,1,Audio-to-Text,2024-02-01 14:43:27.490405,['example.wav']
+29651002,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Image-to-Video>', '<Audio-to-Text>']"
+14324219,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+14324219,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'Make the voice higher pitched and more feminine']"
+14324219,1,Text Summarizer,2024-02-01 14:43:28.490405,['The chorus starts at 1:23 and ends at 1:45']
+14324219,1,Text-to-Image,2024-02-01 14:43:29.490405,['Singer performing the chorus of a song']
+14324219,1,Image-to-Video,2024-02-01 14:43:30.490405,"['<Text-to-Image>', '<Text-to-Image>']"
+22545929,1,Text Translator,2024-02-01 14:43:26.490405,['Der beste Audiokurs befindet sich hier: example.com/audio. Ich möchte den Inhalt des Kurses in englischer Sprache.']
+22545929,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Translator>']
+22545929,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+22545929,1,Text Downloader,2024-02-01 14:43:29.490405,['<URL Extractor>']
+12821655,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['The weather is fantastic today, perfect for a picnic!']"
+12821655,1,Text Paraphraser,2024-02-01 14:43:27.490405,"['The weather is fantastic today, perfect for a picnic!']"
+12821655,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+12821655,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Text-to-Audio>', 'add reverb']"
+30489452,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+30489452,1,Text Search,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+30489452,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Search>']
+30489452,1,Topic Generator,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+31085234,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+31085234,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Audio-to-Image>']
+31085234,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Image Search (by Image)>', 'example.jpg']"
+31085234,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Stitcher>', '<Image Search (by Image)>']"
+49391585,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/image.jpg']
+49391585,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Downloader>']
+49391585,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+49391585,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Downloader>', 'example_style.jpg']"
+10557009,1,Text-to-Audio,2024-02-01 14:43:26.490405,['Congratulations on your achievement! Keep up the good work.']
+10557009,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'cheerful female']"
+10557009,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['example.wav']
+10557009,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Voice Changer>', '<Audio Noise Reduction>']"
+33129048,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+33129048,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'higher pitch']"
+33129048,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Voice Changer>']"
+28960855,1,Article Spinner,2024-02-01 14:43:26.490405,"['Spiders are fascinating creatures that play a crucial role in the ecosystem. They help regulate the population of other pests and are harmless to humans. They use their webs to catch their prey, such as insects and other small creatures.']"
+28960855,1,Image Search,2024-02-01 14:43:27.490405,['<Article Spinner>']
+28960855,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Article Spinner>']
+28048541,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+28048541,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+28048541,1,Audio-to-Image,2024-02-01 14:43:28.490405,['example.wav']
+28048541,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Video-to-Image>', '<Audio-to-Image>']"
+13641817,1,Text-to-Image,2024-02-01 14:43:26.490405,['The impact of climate change on ecosystems.']
+13641817,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Text-to-Image>', 'example.jpg']"
+13641817,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Image-to-Video>', 'example.wav']"
+10816606,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio.wav']
+10816606,1,Keyword Extractor,2024-02-01 14:43:27.490405,['I want the voice to sound more cheerful and enthusiastic.']
+10816606,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Keyword Extractor>']"
+28344809,1,Text-to-Video,2024-02-01 14:43:26.490405,['example.txt']
+28344809,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+28344809,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Text-to-Video>', '<Video-to-Text>']"
+28344809,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Voiceover>']
+85782550,1,Text-to-Image,2024-02-01 14:43:26.490405,['Beautiful sunset by the beach']
+85782550,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+85782550,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Image Colorizer>']"
+28177919,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+28177919,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'example.wav']"
+28177919,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio Splicer>']"
+28177919,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Synchronization>', 'script.txt']"
+19933662,1,Image Stitcher,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+19933662,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Stitcher>', 'example3.jpg']"
+19933662,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Stitcher>']
+27791495,1,Text Translator,2024-02-01 14:43:26.490405,"['Los bosques son el pulmón del mundo, purificando el aire y proporcionando vida.']"
+27791495,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Translator>']
+27791495,1,Image Search,2024-02-01 14:43:28.490405,['<Text Translator>']
+27791495,1,Image Downloader,2024-02-01 14:43:29.490405,['<Image Search>']
+13875356,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+13875356,1,Article Spinner,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+13875356,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Article Spinner>']
+13875356,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Article Spinner>']
+33378522,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['This is a tutorial on how to plant a tree. First, dig a hole in the ground and place the tree seed in it. Water it generously and cover the seed with soil. Finally, place a protective barrier around the area to keep animals away.']"
+33378522,1,Keyword Extractor,2024-02-01 14:43:27.490405,"['This is a tutorial on how to plant a tree. First, dig a hole in the ground and place the tree seed in it. Water it generously and cover the seed with soil. Finally, place a protective barrier around the area to keep animals away.']"
+33378522,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Text-to-Audio>', '<Keyword Extractor>']"
+33378522,1,Video Voiceover,2024-02-01 14:43:29.490405,"['example.mp4', '<Text-to-Audio>']"
+13140442,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+13140442,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+13140442,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+13140442,1,Image Search,2024-02-01 14:43:29.490405,['<Text Sentiment Analysis>']
+28720403,1,Text-to-Video,2024-02-01 14:43:26.490405,['A cat is playing with a ball in the park']
+28720403,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+28720403,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+28720403,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Text-to-Video>', 'half speed']"
+16540993,1,Text Expander,2024-02-01 14:43:26.490405,"['Had a great time, lovely ambiance, and friendly staff.']"
+16540993,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Expander>']
+32089993,1,Audio Downloader,2024-02-01 14:43:26.490405,['<URL>']
+32089993,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+32089993,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+32089993,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio-to-Text>']"
+28128488,1,Text Translator,2024-02-01 14:43:26.490405,['Le chat est sur la chaise']
+28128488,1,Image Downloader,2024-02-01 14:43:27.490405,['https://www.example.com/example.jpg']
+28128488,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Translator>']
+28128488,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Downloader>', '<Text-to-Image>']"
+25297988,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+25297988,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+25297988,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', '<Video-to-Image>']"
+32485307,1,Text Grammar Checker,2024-02-01 14:43:26.490405,"[""Photography has gone through many changes since its invention. With the advancement of technology, the ways we capture and share memories have evolved. Here's a brief history of photography. The first photograph was taken by Nicéphore Niépce in 1826, using a process called heliography. example.jpg""]"
+32485307,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+32485307,1,Topic Generator,2024-02-01 14:43:28.490405,['<Article Spinner>']
+32485307,1,Text-to-Video,2024-02-01 14:43:29.490405,['<Article Spinner>']
+24373888,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+24373888,1,Audio-to-Image,2024-02-01 14:43:27.490405,['example.wav']
+24373888,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Video-to-Image>', '<Audio-to-Image>']"
+88103583,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example.com/article']
+88103583,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+88103583,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Text Downloader>']
+28222740,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+28222740,1,Audio-to-Text,2024-02-01 14:43:27.490405,['example.wav']
+28222740,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+79094671,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://example.com/audio.wav']
+79094671,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+79094671,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', 'Please overlay this script on the video as a voiceover.']"
+79094671,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Voiceover>', '<Audio Noise Reduction>']"
+20214529,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'increase speed by 1.5x']"
+20214529,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Speed Changer>']
+20214529,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Speed Changer>']
+22732069,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+22732069,1,Image Search (by Image),2024-02-01 14:43:27.490405,['example.jpg']
+22732069,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Search (by Image)>']
+22732069,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Video-to-Image>', '<Image Colorizer>']"
+25637431,1,Text Translator,2024-02-01 14:43:26.490405,['La vie est belle']
+25637431,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Text Translator>']
+25637431,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['example.jpg', '<Text-to-Image>']"
+25637431,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Translator>']
+25637431,1,Video Voiceover,2024-02-01 14:43:30.490405,"['example.mp4', '<Text-to-Audio>']"
+67398810,1,Audio Noise Reduction,2024-02-01 14:43:26.490405,['example.wav']
+67398810,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Noise Reduction>']
+67398810,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+24635315,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/video.mp4']
+24635315,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+24635315,1,Text Translator,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+24635315,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Text Translator>']
+24635315,1,Text-to-Image,2024-02-01 14:43:30.490405,['<Text Sentiment Analysis>']
+24635315,1,Image Stitcher,2024-02-01 14:43:31.490405,"['<Text-to-Image>', 'example.jpg']"
+14628858,1,Text Summarizer,2024-02-01 14:43:26.490405,['example.txt']
+14628858,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+14628858,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+16519669,1,Text Simplifier,2024-02-01 14:43:26.490405,"['In this modern era, technology has significantly improved our lifestyles. Although it has brought remarkable changes, some argue that it has also made us more dependent on gadgets. For instance, we are unable to function without our smartphones, as they have become an extension of our lives. Overall, this phenomenon has its pros and cons.']"
+16519669,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+16519669,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+15037969,1,Voice Changer,2024-02-01 14:43:26.490405,"['example.wav', 'Make the voice in the first file sound like a woman with a higher pitch']"
+15037969,1,Audio Effects,2024-02-01 14:43:27.490405,"['example2.wav', 'Add reverb and chorus']"
+15037969,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Voice Changer>', '<Audio Effects>']"
+47944084,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+47944084,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Downloader>']
+47944084,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Article Spinner>']
+47944084,1,Text Summarizer,2024-02-01 14:43:29.490405,['<Text Sentiment Analysis>']
+47944084,1,Text-to-Video,2024-02-01 14:43:30.490405,['<Text Summarizer>']
+28658312,1,Image Downloader,2024-02-01 14:43:26.490405,['http://example.com/cat.jpg']
+28658312,1,Text-to-Image,2024-02-01 14:43:27.490405,['A beautiful sunset over the ocean']
+28658312,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Downloader>', 'example.jpg']"
+28658312,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Style Transfer>', '<Text-to-Image>']"
+27452509,1,Text-to-Video,2024-02-01 14:43:26.490405,"['The sun sets over the calm sea, as birds fly towards the horizon']"
+27452509,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+27452509,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+27452509,1,Audio Effects,2024-02-01 14:43:29.490405,"['example.wav', 'reverb']"
+17216080,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'provided instructions']"
+17216080,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Video Speed Changer>']
+17216080,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+17216080,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Video-to-Audio>', 'provided instructions']"
+17216080,1,Audio-to-Text,2024-02-01 14:43:30.490405,['<Voice Changer>']
+17216080,1,Video-to-Text,2024-02-01 14:43:31.490405,['example.mp4']
+11376966,1,Image Search (by Image),2024-02-01 14:43:26.490405,['example.jpg']
+11376966,1,Image-to-Video,2024-02-01 14:43:27.490405,"['example.jpg', '<Image Search (by Image)>']"
+26869361,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+26869361,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+26869361,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Image-to-Text>']"
+26869361,1,Keyword Extractor,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+30837315,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+30837315,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Video-to-Image>']
+30837315,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Video-to-Image>', 'example.jpg']"
+29214847,1,Video Search,2024-02-01 14:43:26.490405,['example_keyword']
+29214847,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Search>']
+29214847,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Search>']
+34140511,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+34140511,1,Text-to-Audio,2024-02-01 14:43:27.490405,"[""Introducing our revolutionary new product! It's going to change the way you live. Get yours today!""]"
+34140511,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Image-to-Video>', '<Text-to-Audio>']"
+32684007,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"[""I love this new phone, it's really amazing and useful.""]"
+32684007,1,Text Summarizer,2024-02-01 14:43:27.490405,"[""I love this new phone, it's really amazing and useful.""]"
+32684007,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+16735705,1,Audio Downloader,2024-02-01 14:43:26.490405,['http://example.audio/url']
+16735705,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Audio Downloader>', 'female']"
+74688482,1,Text Paraphraser,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog.']
+74688482,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', '1.5']"
+74688482,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', '<Text Paraphraser>']"
+27213855,1,Text Simplifier,2024-02-01 14:43:26.490405,['related text']
+27213855,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+27213855,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Simplifier>']"
+27213855,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Voiceover>', '<Text-to-Audio>']"
+27213855,1,Video-to-Audio,2024-02-01 14:43:30.490405,['<Video Synchronization>']
+12598236,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this amazing view: https://www.example.com/image.jpg']
+12598236,1,Image Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+12598236,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Downloader>', 'example.jpg']"
+21779257,1,Text Expander,2024-02-01 14:43:26.490405,['The importance of healthy eating habits']
+21779257,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Expander>']
+21779257,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Text Expander>']
+22949408,1,Topic Generator,2024-02-01 14:43:26.490405,['Sustainable Energy Solutions']
+22949408,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'modify voice characteristics']"
+22949408,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Voice Changer>', 'high-quality']"
+18120725,1,Image Search (by Image),2024-02-01 14:43:26.490405,['example.jpg']
+18120725,1,Audio-to-Image,2024-02-01 14:43:27.490405,['example.wav']
+18120725,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Search (by Image)>', 'example_2.jpg', '<Audio-to-Image>']"
+10985677,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['Last weak, I wnt to the beech and had grate time. It was sunny al day.']"
+10985677,1,Text Grammar Checker,2024-02-01 14:43:27.490405,"['Last weak, I wnt to the beech and had grate time. It was sunny al day.']"
+10985677,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+13594579,1,Text-to-Audio,2024-02-01 14:43:26.490405,['This is an example of a synthesized user request and tool invoking graph with seed {125189}.']
+13594579,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Text-to-Audio>']
+13594579,1,Image-to-Video,2024-02-01 14:43:28.490405,"['example1.jpg', 'example2.jpg']"
+13594579,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', '<Audio Noise Reduction>']"
+11619722,1,URL Extractor,2024-02-01 14:43:26.490405,['Amazing video&pic at example.mp4 & example.jpg! Watch and download!']
+11619722,1,Video Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+11619722,1,Image Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+32513404,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+32513404,1,Text Paraphraser,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+32513404,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '1.5']"
+32513404,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text Paraphraser>']"
+13141885,1,Text Grammar Checker,2024-02-01 14:43:26.490405,['Executiv will talk on strrtegy today in confrence hll. Its shuld bea intrsting meetng.']
+13141885,1,Text Expander,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+13141885,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Expander>']
+13141885,1,Text Summarizer,2024-02-01 14:43:29.490405,['<Text Expander>']
+33947379,1,Text Expander,2024-02-01 14:43:26.490405,['Investing means putting money into assets to gain profits.']
+33947379,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Expander>']
+33947379,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Expander>']
+24695232,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/myvideo']
+24695232,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+24695232,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'reverb']"
+24695232,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Downloader>', '<Audio Effects>']"
+23073202,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+23073202,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+23073202,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+23073202,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Audio Noise Reduction>', 'higher pitch']"
+15483003,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this song: https://www.example.com/my-audio-file.wav. Please apply some reverb and equalization adjustments to make it sound better.']
+15483003,1,Audio Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+15483003,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', 'reverb, equalization']"
+13710655,1,Text Simplifier,2024-02-01 14:43:26.490405,['advanced robotics and its applications']
+13710655,1,Video Search,2024-02-01 14:43:27.490405,['advanced robotics and its applications']
+13710655,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'echo']"
+31077367,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/image']
+31077367,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+31077367,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+65001117,1,Text Simplifier,2024-02-01 14:43:26.490405,"['In the field of computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. It involves some complex processes.']"
+65001117,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+65001117,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', 'make slower']"
+65001117,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text-to-Audio>']"
+42540050,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+42540050,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', '<Image-to-Text>']"
+42540050,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Voice Changer>']"
+23862407,1,Image Search (by Image),2024-02-01 14:43:26.490405,['example.jpg']
+23862407,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['example2.png', '<Image Search (by Image)>']"
+23862407,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Image Style Transfer>', 'example3.png']"
+23862407,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Stitcher>', 'example4.jpg']"
+19764617,1,Text Summarizer,2024-02-01 14:43:26.490405,['example.txt']
+19764617,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+19764617,1,Video Search,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+19764617,1,Image Search,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+71294570,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+71294570,1,Image Search,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+71294570,1,Video Stabilizer,2024-02-01 14:43:28.490405,['example.mp4']
+71294570,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Audio-to-Text>']"
+25993913,1,Text Grammar Checker,2024-02-01 14:43:26.490405,"[""Life is like a box of chocolates, you never know what you're gonna get.""]"
+25993913,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+25993913,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+89447301,1,Text Simplifier,2024-02-01 14:43:26.490405,['Please add a reverb effect to the audio file at www.example.com/audio.wav. Make it more significant.']
+89447301,1,Audio Downloader,2024-02-01 14:43:27.490405,['www.example.com/audio.wav']
+89447301,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Text Simplifier>']"
+24337357,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/video/example.mp4']
+24337357,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['Snall the video sped up by 2 times.']
+24337357,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Downloader>', '<Text Grammar Checker>']"
+24337357,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Speed Changer>']
+13021297,1,Voice Changer,2024-02-01 14:43:26.490405,"['example.wav', 'tone, pitch, gender']"
+13021297,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Voice Changer>']
+13021297,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Voice Changer>']"
+19947493,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['The advances in artificial intelligence have revolutionized various industries, leading to increased efficiency and convenience.']"
+19947493,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Audio>']
+19947493,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+19947493,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+19947493,1,Topic Generator,2024-02-01 14:43:30.490405,['<Text Simplifier>']
+19947493,1,Voice Changer,2024-02-01 14:43:31.490405,"['<Text-to-Audio>', 'modify voice characteristics']"
+19947493,1,Video Synchronization,2024-02-01 14:43:32.490405,"['example.mp4', '<Voice Changer>']"
+29028793,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/imagelink']
+29028793,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+29028793,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+29028793,1,Image Colorizer,2024-02-01 14:43:29.490405,['<Image Style Transfer>']
+32078943,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,['Amazing sunset tonight.']
+32078943,1,Text Expander,2024-02-01 14:43:27.490405,['Amazing sunset tonight.']
+32078943,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Text Expander>']
+13147817,1,Image Search,2024-02-01 14:43:26.490405,['The sun sets over the calm ocean']
+13147817,1,Text Downloader,2024-02-01 14:43:27.490405,['https://www.example.com/cool_article']
+19061728,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+19061728,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Image-to-Video>', '1.5x']"
+19061728,1,Text Simplifier,2024-02-01 14:43:28.490405,['The quick brown fox jumps over the lazy dog.']
+19061728,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text Simplifier>']"
+97422199,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+97422199,1,Video Voiceover,2024-02-01 14:43:27.490405,"['<Image-to-Video>', 'This is a video presentation.']"
+97422199,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Voiceover>']
+11750849,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+11750849,1,Text Expander,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+11750849,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Expander>']
+30697771,1,Image Colorizer,2024-02-01 14:43:26.490405,['example1.jpg']
+30697771,1,Video-to-Image,2024-02-01 14:43:27.490405,['example2.mp4']
+30697771,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Colorizer>', '<Video-to-Image>']"
+17780954,1,Text Search,2024-02-01 14:43:26.490405,['example.txt']
+17780954,1,Video Search,2024-02-01 14:43:27.490405,['<Text Search>']
+17780954,1,Image Search,2024-02-01 14:43:28.490405,['<Text Search>']
+27720636,1,Image Style Transfer,2024-02-01 14:43:26.490405,"['example_content.jpg', 'example_style.jpg']"
+27720636,1,Image Colorizer,2024-02-01 14:43:27.490405,['<Image Style Transfer>']
+27720636,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Colorizer>']
+27720636,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Colorizer>', 'example_stitch.jpg']"
+33676689,1,Text Paraphraser,2024-02-01 14:43:26.490405,['environmental science document']
+33676689,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+33676689,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'add reverb']"
+17914002,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/video']
+17914002,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+17914002,1,Topic Generator,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+17914002,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Topic Generator>']
+17914002,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Video Downloader>', '<Text-to-Audio>']"
+23409032,1,Keyword Extractor,2024-02-01 14:43:26.490405,"['Climate change has been impacting the environment in various ways, one of which is shrinking polar bear habitats. As the Arctic ice melts, polar bears are left with less hunting ground and face starvation. The loss of sea ice also makes it more challenging for polar bears to find mates and reproduce, leading to a decline in their population. Urgent action is needed to address the drastic consequences of climate change on these majestic creatures and their natural habitat.']"
+23409032,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Keyword Extractor>']
+23409032,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+14862397,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+14862397,1,Image-to-Text,2024-02-01 14:43:27.490405,['example.jpg']
+14862397,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Image-to-Text>']"
+14862397,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Audio Effects>']
+29848952,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.wav']
+29848952,1,Video-to-Text,2024-02-01 14:43:27.490405,['example.mp4']
+29848952,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Video-to-Text>']"
+22373267,1,Audio Effects,2024-02-01 14:43:26.490405,"['example.wav', 'reverb']"
+22373267,1,Voice Changer,2024-02-01 14:43:27.490405,"['example2.wav', 'female']"
+22373267,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Audio Effects>', '<Voice Changer>']"
+10751033,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+10751033,1,Text Downloader,2024-02-01 14:43:27.490405,['https://example.com/audio-instructions']
+10751033,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Text Downloader>']"
+10751033,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Audio Effects>', 'example.wav']"
+19351515,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+19351515,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+19351515,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+77594266,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+77594266,1,Text Paraphraser,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+77594266,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+77594266,1,URL Extractor,2024-02-01 14:43:29.490405,['<Text Paraphraser>']
+80262334,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+80262334,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+80262334,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+19480387,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+19480387,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+19480387,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+19480387,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+19480387,1,Text-to-Image,2024-02-01 14:43:30.490405,['<Audio-to-Text>']
+10074769,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+10074769,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+10074769,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', '<Video-to-Image>']"
+19481518,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+19481518,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+19481518,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+19481518,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Text-to-Audio>']"
+19481518,1,Video Stabilizer,2024-02-01 14:43:30.490405,['<Video Synchronization>']
+42381144,1,Text Downloader,2024-02-01 14:43:26.490405,['URL']
+42381144,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'reverb, chorus']"
+42381144,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Effects>', 'female']"
+30901481,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+30901481,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Downloader>']
+30901481,1,Video Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+30901481,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Downloader>', '2x speed']"
+30901481,1,Image-to-Text,2024-02-01 14:43:30.490405,['example.jpg']
+41332022,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio.wav']
+41332022,1,Audio Effects,2024-02-01 14:43:27.490405,"['<Audio Downloader>', 'reverb']"
+41332022,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Effects>']
+15506858,1,Text-to-Audio,2024-02-01 14:43:26.490405,['text document']
+15506858,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'clear and modified']"
+15506858,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Voice Changer>', 'example.wav']"
+18493688,1,Article Spinner,2024-02-01 14:43:26.490405,['example.txt']
+18493688,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Article Spinner>']
+18493688,1,Image Search,2024-02-01 14:43:28.490405,['recycling']
+68800367,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+68800367,1,Text Translator,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+68800367,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Translator>']
+68800367,1,Text Search,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+68800367,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', 'reverb']"
+10653436,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+10653436,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+10653436,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+10109081,1,Text Paraphraser,2024-02-01 14:43:26.490405,['Climate change is a significant and enduring change in the statistical distribution of weather patterns over periods ranging from decades to millions of years.']
+10109081,1,Video Search,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+10109081,1,Image Search,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+51044983,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+51044983,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+51044983,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Audio-to-Text>']"
+51044983,1,Audio Downloader,2024-02-01 14:43:29.490405,['output.wav']
+15076392,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+15076392,1,Text Search,2024-02-01 14:43:27.490405,['<Text Downloader>']
+15076392,1,Video Search,2024-02-01 14:43:28.490405,['<Text Downloader>']
+15076392,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Text Downloader>']
+21375920,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+21375920,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+21375920,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+13646024,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.video.example.com/example.mp4']
+13646024,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['I love watching informative videos!']
+13646024,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Downloader>', '<Text Sentiment Analysis>']"
+48318288,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example_audio.wav']
+48318288,1,Audio Effects,2024-02-01 14:43:27.490405,"['<Audio Downloader>', 'Aplique bájolaunch com moderada intensidade no áudio.']"
+21972271,1,Text Translator,2024-02-01 14:43:26.490405,['Ceci est une maison']
+21972271,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Text Translator>']
+21972271,1,Image Search,2024-02-01 14:43:28.490405,['<Text Translator>']
+21972271,1,Video-to-Text,2024-02-01 14:43:29.490405,['example.mp4']
+25520941,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,['I love this product']
+25520941,1,Text Search,2024-02-01 14:43:27.490405,['<Text Sentiment Analysis>']
+25520941,1,Image Search,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+25520941,1,Audio Effects,2024-02-01 14:43:29.490405,"['example.wav', 'happy']"
+31407822,1,Text-to-Image,2024-02-01 14:43:26.490405,['example.txt']
+31407822,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Text-to-Image>', 'example.jpg']"
+31407822,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['example.txt']
+14084946,1,Text-to-Image,2024-02-01 14:43:26.490405,['example.txt']
+14084946,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+14084946,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Video-to-Image>']"
+22107632,1,Text Simplifier,2024-02-01 14:43:26.490405,"[""complex text about a city's history""]"
+22107632,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+22107632,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+22107632,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Text-to-Audio>', 'example.wav']"
+19059855,1,Text-to-Audio,2024-02-01 14:43:26.490405,"[""Wow, this software is truly incredible! I've never experienced anything quite like it.""]"
+19059855,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'excited and happy']"
+58711456,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+58711456,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Video Stabilizer>', 'example.wav']"
+58711456,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Synchronization>', 'adjust speed']"
+58711456,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Speed Changer>']
+95824082,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+95824082,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+95824082,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+11297201,1,Text Translator,2024-02-01 14:43:26.490405,['<Video-to-Text>']
+11297201,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Translator>']
+11297201,1,Video Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+11297201,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Downloader>']
+11297201,1,Text-to-Audio,2024-02-01 14:43:30.490405,['<Text Translator>']
+66201518,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+66201518,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+66201518,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+24480669,1,Text Search,2024-02-01 14:43:26.490405,['inspirational']
+24480669,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['example.wav']
+24480669,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Noise Reduction>', 'modify voice']"
+24480669,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Search>']
+17290787,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+17290787,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+17290787,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Sentiment Analysis>']"
+66706247,1,Article Spinner,2024-02-01 14:43:26.490405,"[""In today's news, a major event took place that has caused significant changes across many industries. One of those industries was impacted by this turn of events more than any other. To find more information about this, visit example.com.""]"
+66706247,1,URL Extractor,2024-02-01 14:43:27.490405,['<Article Spinner>']
+12665433,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+12665433,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Audio Splicer>']"
+12665433,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+21815491,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+21815491,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+21815491,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+10213034,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+10213034,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Video-to-Image>', 'example.jpg']"
+10213034,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Stitcher>', 'example_style.jpg']"
+89666972,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+89666972,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Video-to-Image>', 'example.jpg']"
+31876257,1,Image Style Transfer,2024-02-01 14:43:26.490405,"['example2.jpg', 'example1.jpg']"
+31876257,1,Image Colorizer,2024-02-01 14:43:27.490405,['<Image Style Transfer>']
+31876257,1,Video-to-Image,2024-02-01 14:43:28.490405,['example.mp4']
+31876257,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Colorizer>', '<Video-to-Image>']"
+26753516,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+26753516,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+26753516,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+34004480,1,Image Downloader,2024-02-01 14:43:26.490405,['example2.jpg']
+34004480,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Image Downloader>', '<Image Downloader>']"
+34004480,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Stitcher>']
+34004480,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Colorizer>']
+34004480,1,Image Search (by Image),2024-02-01 14:43:30.490405,['<Image Colorizer>']
+34004480,1,Topic Generator,2024-02-01 14:43:31.490405,['<Image-to-Text>']
+33676750,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example.jpg', 'example2.jpg']"
+33676750,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Image-to-Video>']
+33676750,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Image-to-Video>']
+33676750,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Video-to-Audio>']
+76614259,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+76614259,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+76614259,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', 'higher pitch']"
+30592055,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+30592055,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+30592055,1,Text Simplifier,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+28199695,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this awesome new song: https://example.com/example.wav']
+28199695,1,Audio Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+28199695,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Downloader>', 'female']"
+28199695,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Voice Changer>']
+25688318,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/image.jpg']
+25688318,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Downloader>']
+25688318,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', 'example.jpg']"
+28058323,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+28058323,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', 'increase speed by 10%']"
+28058323,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', '<Text Downloader>']"
+28058323,1,Video-to-Image,2024-02-01 14:43:29.490405,['<Video Voiceover>']
+28769531,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/image.jpg']
+28769531,1,Text-to-Image,2024-02-01 14:43:27.490405,['Example: DeepAI']
+28769531,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Text-to-Image>']"
+28687369,1,Audio Downloader,2024-02-01 14:43:26.490405,['www.example.com/audio.wav']
+28687369,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+28687369,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Downloader>', 'female']"
+28687369,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Voice Changer>', 'higher pitch']"
+28687369,1,Image Style Transfer,2024-02-01 14:43:30.490405,"['<Audio-to-Image>', 'example.jpg']"
+23389437,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+23389437,1,Image Colorizer,2024-02-01 14:43:27.490405,['example1.jpg']
+23389437,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Audio-to-Image>', '<Image Colorizer>']"
+23389437,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Stitcher>', 'example2.jpg']"
+18415345,1,Text Paraphraser,2024-02-01 14:43:26.490405,"['Pollution levels have increased dramatically, causing harm to human health and the environment. Take appropriate steps for a cleaner and greener planet.']"
+18415345,1,Text Search,2024-02-01 14:43:27.490405,['<Text Paraphraser>']
+18415345,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+18415345,1,URL Extractor,2024-02-01 14:43:29.490405,['<Text Search>']
+19946937,1,Article Spinner,2024-02-01 14:43:26.490405,"['Exercise is essential for maintaining a healthy lifestyle. It helps improve cardiovascular health, boosts mood, and strengthens the immune system. Engaging in regular physical activity can also help you maintain a healthy weight and reduce the risk of chronic diseases.']"
+19946937,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Article Spinner>']
+19946937,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+19946937,1,Image Downloader,2024-02-01 14:43:29.490405,['<Image Search>']
+25026302,1,Article Spinner,2024-02-01 14:43:26.490405,['example.txt']
+25026302,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Article Spinner>']
+25026302,1,Audio-to-Image,2024-02-01 14:43:28.490405,['example.wav']
+25026302,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Text-to-Image>', '<Audio-to-Image>']"
+34400494,1,Text Downloader,2024-02-01 14:43:26.490405,['http://www.example.com']
+34400494,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Downloader>']
+34400494,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Text-to-Audio>']"
+34400494,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Text-to-Audio>']
+12407297,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/video.mp4']
+12407297,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+12407297,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', 'example.wav']"
+12407297,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Downloader>', '<Audio Splicer>']"
+12407297,1,Video-to-Text,2024-02-01 14:43:30.490405,['<Video Synchronization>']
+18697098,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'Play the video at 1.5x speed']"
+18697098,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+18697098,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', '<Audio Splicer>']"
+23258361,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example.jpg', 'example2.jpg']"
+23258361,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Image-to-Video>']
+23258361,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', 'higher pitch']"
+23258361,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Voice Changer>', 'add reverb']"
+29838669,1,Text Simplifier,2024-02-01 14:43:26.490405,['The quick brown fox jumped over the lazy dog.']
+29838669,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+29838669,1,Voice Changer,2024-02-01 14:43:28.490405,"['example.wav', 'higher pitch']"
+16044056,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio.wav']
+16044056,1,Text-to-Video,2024-02-01 14:43:27.490405,['The beautiful scenery at Example National Park']
+16044056,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Text-to-Video>', '<Audio Downloader>']"
+24724082,1,Text-to-Image,2024-02-01 14:43:26.490405,['Holiday Memories']
+24724082,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+24724082,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Video-to-Image>']"
+29079468,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/image.jpg']
+29079468,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example_style.png']"
+12939083,1,Audio Noise Reduction,2024-02-01 14:43:26.490405,['example.wav']
+12939083,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Noise Reduction>']
+12939083,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio-to-Text>']"
+12939083,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Voiceover>']
+12939083,1,Video Synchronization,2024-02-01 14:43:30.490405,"['<Video Stabilizer>', '<Audio Noise Reduction>']"
+12939083,1,Video Speed Changer,2024-02-01 14:43:31.490405,"['<Video Synchronization>', 'Speed up the video by 1.5x']"
+27732871,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+27732871,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+27732871,1,Text-to-Image,2024-02-01 14:43:28.490405,['<URL Extractor>']
+27732871,1,Audio Effects,2024-02-01 14:43:29.490405,"['example.wav', '<Image-to-Text>']"
+18065245,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+18065245,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+18065245,1,Video-to-Image,2024-02-01 14:43:28.490405,['example.mp4']
+18065245,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Video-to-Image>', 'example.jpg']"
+18065245,1,Text-to-Video,2024-02-01 14:43:30.490405,['<Text Summarizer>']
+15075218,1,Text Search,2024-02-01 14:43:26.490405,['benefits of remote work']
+15075218,1,Video Search,2024-02-01 14:43:27.490405,['benefits of remote work']
+15075218,1,Video Downloader,2024-02-01 14:43:28.490405,['<Video Search>']
+15075218,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Downloader>', 'slow down']"
+15075218,1,Video Synchronization,2024-02-01 14:43:30.490405,"['<Video Speed Changer>', 'example.wav']"
+15075218,1,Video Stabilizer,2024-02-01 14:43:31.490405,['<Video Synchronization>']
+29230517,1,Text Grammar Checker,2024-02-01 14:43:26.490405,['People watches movies at the theater.']
+29230517,1,Image Search,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+29230517,1,Voice Changer,2024-02-01 14:43:28.490405,"['example.wav', 'higher pitch']"
+15614475,1,Text Downloader,2024-02-01 14:43:26.490405,['URL']
+15614475,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+15614475,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Downloader>']"
+15614475,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text Downloader>']"
+12947044,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+12947044,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+12947044,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+12947044,1,Image Search,2024-02-01 14:43:29.490405,['<Text Expander>']
+82319921,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+82319921,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+82319921,1,Topic Generator,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+82319921,1,Text Summarizer,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+82319921,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', '<Text Summarizer>']"
+82319921,1,Audio-to-Text,2024-02-01 14:43:31.490405,['<Audio Effects>']
+25697264,1,Audio Effects,2024-02-01 14:43:26.490405,"['example.wav', 'EQ and Reverb']"
+25697264,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Audio Effects>']
+25697264,1,URL Extractor,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+25697264,1,Text Expander,2024-02-01 14:43:29.490405,['example.wav: EQ and Reverb']
+25697264,1,Article Spinner,2024-02-01 14:43:30.490405,['<Text Expander>']
+28374453,1,Text Expander,2024-02-01 14:43:26.490405,['Join us for a fun-filled evening!']
+28374453,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Expander>']
+28374453,1,Video Search,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+21239428,1,Article Spinner,2024-02-01 14:43:26.490405,['Benefits of Yoga']
+21239428,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Article Spinner>']
+21239428,1,Image Search,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+21239428,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Search>']
+21239428,1,Text-to-Video,2024-02-01 14:43:30.490405,['<Text Summarizer>']
+17123290,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['I absolutely adore this movie! The plot, the acting, the special effects; it all came together perfectly. Every moment was breathtaking.']"
+17123290,1,Text Simplifier,2024-02-01 14:43:27.490405,"['I absolutely adore this movie! The plot, the acting, the special effects; it all came together perfectly. Every moment was breathtaking.']"
+17123290,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Sentiment Analysis>']"
+10353129,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+10353129,1,Video Search,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+10353129,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Search>', '<Image-to-Text>']"
+33376359,1,Video Search,2024-02-01 14:43:26.490405,['pizza making tutorial']
+33376359,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+33376359,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Search>', '<Audio Splicer>']"
+17583578,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+17583578,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Image-to-Video>']
+60221669,1,Audio Noise Reduction,2024-02-01 14:43:26.490405,['example.wav']
+60221669,1,Audio Effects,2024-02-01 14:43:27.490405,"['<Audio Noise Reduction>', 'suitable effects']"
+41539854,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'increase speed by 25%']"
+41539854,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Video Speed Changer>', 'example.wav']"
+18712751,1,Text Search,2024-02-01 14:43:26.490405,['climate change']
+18712751,1,Image Search,2024-02-01 14:43:27.490405,['climate change']
+18712751,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', 'speed up']"
+18712751,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Text Search>']
+10444401,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['Welcome to our project. In this presentation, you will see the results and the process of our research.']"
+10444401,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'example.wav']"
+10444401,1,Image-to-Video,2024-02-01 14:43:28.490405,"['example1.jpg', 'example2.jpg']"
+10444401,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Image-to-Video>', '<Audio Splicer>']"
+85106217,1,Text-to-Video,2024-02-01 14:43:26.490405,['example.txt']
+85106217,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Text-to-Video>', 'example.wav']"
+85106217,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+10567096,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['The weather is quite nice today, perfect for a walk in the park. The birds are chirping, and the sun is shining brightly.']"
+10567096,1,Keyword Extractor,2024-02-01 14:43:27.490405,"['The weather is quite nice today, perfect for a walk in the park. The birds are chirping, and the sun is shining brightly.']"
+10567096,1,Video Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+20277847,1,Text Downloader,2024-02-01 14:43:26.490405,['example.com/article']
+20277847,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Downloader>']
+20277847,1,Article Spinner,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+20277847,1,Text Search,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+20277847,1,Audio Downloader,2024-02-01 14:43:30.490405,['<Text Search>']
+20277847,1,Audio-to-Text,2024-02-01 14:43:31.490405,['<Audio Downloader>']
+13075083,1,Image Downloader,2024-02-01 14:43:26.490405,['example.jpg']
+13075083,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Downloader>']
+13075083,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Downloader>']
+21304833,1,Text-to-Image,2024-02-01 14:43:26.490405,"['The colorful birds were singing on the trees, and the flowers bloomed beautifully.']"
+21304833,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Text-to-Image>', 'example.jpg']"
+21304833,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Stitcher>']
+21304833,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+21304833,1,Voice Changer,2024-02-01 14:43:30.490405,"['example.wav', '<Text Simplifier>']"
+62178945,1,Text Translator,2024-02-01 14:43:26.490405,"['Hallo, wie geht es Ihnen? Ich möchte wissen, wie man diese Aussage auf Englisch richtig formuliert.']"
+62178945,1,Text Search,2024-02-01 14:43:27.490405,['<Text Translator>']
+62178945,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Text Search>']
+62178945,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+25040008,1,Text Translator,2024-02-01 14:43:26.490405,['long article in French']
+25040008,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Translator>']
+25040008,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Text Translator>']
+25040008,1,Text Expander,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+25040008,1,Text Search,2024-02-01 14:43:30.490405,['<Text Expander>']
+25040008,1,Video Search,2024-02-01 14:43:31.490405,['<Text Expander>']
+15992250,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/example-video.mp4']
+15992250,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+15992250,1,Text Simplifier,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+15992250,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+29900395,1,Image Downloader,2024-02-01 14:43:26.490405,['<url>']
+29900395,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Downloader>']
+29900395,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Downloader>']
+29900395,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Colorizer>', 'example.jpg']"
+12271501,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', '1.5x']"
+12271501,1,Text Translator,2024-02-01 14:43:27.490405,['Je suis content.']
+12271501,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', '<Text Translator>']"
+22011368,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/videofile']
+22011368,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+22011368,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Downloader>', 'example.wav']"
+30958002,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+30958002,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'high tone, low pitch, female']"
+30958002,1,Text Paraphraser,2024-02-01 14:43:28.490405,['The quick brown fox jumps over the lazy dog']
+50700088,1,Article Spinner,2024-02-01 14:43:26.490405,"[""Today, I visited the most beautiful beach in the world. You can check it out at http://example.com. Don't forget to bring your camera!""]"
+50700088,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Article Spinner>']
+50700088,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Text-to-Video>', 'example.wav']"
+50700088,1,URL Extractor,2024-02-01 14:43:29.490405,['<Article Spinner>']
+49712248,1,Text Simplifier,2024-02-01 14:43:26.490405,['new technology development article']
+49712248,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+49712248,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+49712248,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Text Simplifier>']"
+29348560,1,Text-to-Audio,2024-02-01 14:43:26.490405,['text script']
+29348560,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'example.wav']"
+29348560,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+28461211,1,Text Grammar Checker,2024-02-01 14:43:26.490405,['Ther are some gramatic errors and we need too summarize this text.']
+28461211,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+28461211,1,Video Stabilizer,2024-02-01 14:43:28.490405,['example.mp4']
+28461211,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', 'adjust speed']"
+28710398,1,Text-to-Audio,2024-02-01 14:43:26.490405,['Welcome to the party!']
+28710398,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Text-to-Audio>', 'example.wav']"
+28710398,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+28710398,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Audio Splicer>', 'higher pitch']"
+20381443,1,Text Translator,2024-02-01 14:43:26.490405,['Bonjour tout le monde']
+20381443,1,Image Search,2024-02-01 14:43:27.490405,['<Text Translator>']
+20381443,1,Text Downloader,2024-02-01 14:43:28.490405,['https://example.com/content']
+20381443,1,Text-to-Video,2024-02-01 14:43:29.490405,['<Text Downloader>']
+16771097,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+16771097,1,Text Expander,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+16771097,1,Video Search,2024-02-01 14:43:28.490405,['<Text Expander>']
+16771097,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Expander>']
+14707569,1,Text Search,2024-02-01 14:43:26.490405,['sound engineering techniques']
+14707569,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'example audio effects']"
+14707569,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Effects>']
+14707569,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+12882075,1,Text Simplifier,2024-02-01 14:43:26.490405,['educational text']
+12882075,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+12882075,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+12882075,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Text-to-Video>', '<Text Simplifier>']"
+15207874,1,Image Downloader,2024-02-01 14:43:26.490405,['http://example.com/image.png']
+15207874,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+15207874,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+15207874,1,Text Translator,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+33614393,1,Text Simplifier,2024-02-01 14:43:26.490405,"[""Climate change and global warming affect Earth's weather patterns, causing extreme weather events, such as hurricanes and droughts. This results in environmental degradation, such as deforestation and soil erosion.""]"
+33614393,1,Image Search,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+33614393,1,Topic Generator,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+82943287,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+82943287,1,Text Translator,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+82943287,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Text Translator>']
+17830403,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.com/audio-url']
+17830403,1,Text Downloader,2024-02-01 14:43:27.490405,['example.com/text-url']
+17830403,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Text Downloader>']"
+16718060,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+16718060,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+16718060,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Text-to-Audio>']
+16718060,1,Topic Generator,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+17367510,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', '1.5x speed']"
+17367510,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Video Speed Changer>', 'voiceover']"
+10186897,1,Text Summarizer,2024-02-01 14:43:26.490405,['effects of climate change on the global economy and impact on agriculture']
+10186897,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+10186897,1,Text Search,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+11851814,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+11851814,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Downloader>']
+11851814,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Article Spinner>']
+11851814,1,Image Search,2024-02-01 14:43:29.490405,['<Article Spinner>']
+11394669,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+11394669,1,Image Search,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+11394669,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+96049139,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+96049139,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Splicer>']
+96049139,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Noise Reduction>', 'example.txt']"
+27609075,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+27609075,1,Article Spinner,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+27609075,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Article Spinner>']
+27609075,1,Keyword Extractor,2024-02-01 14:43:29.490405,['<Article Spinner>']
+11247905,1,Video Voiceover,2024-02-01 14:43:26.490405,"['example.mp4', 'Welcome to our product demonstration. Today, we will guide you through the features and benefits of our product.']"
+11247905,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Voiceover>']
+11247905,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Voiceover>']
+18747781,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', '1.5 times faster']"
+18747781,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Speed Changer>']
+18747781,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Speed Changer>']
+13068357,1,Video Downloader,2024-02-01 14:43:26.490405,['example.mp4']
+13068357,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+13068357,1,Video Stabilizer,2024-02-01 14:43:28.490405,['<Video Downloader>']
+51596430,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example-webpage.com/audio-list']
+51596430,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Downloader>']
+51596430,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+51596430,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Audio Downloader>', '<Audio Downloader>']"
+51596430,1,Audio-to-Text,2024-02-01 14:43:30.490405,['<Audio Splicer>']
+24078431,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this link for instructions: https://example.com/voice_instructions']
+24078431,1,Text Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+24078431,1,Voice Changer,2024-02-01 14:43:28.490405,"['example.wav', '<Text Downloader>']"
+24078431,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Voice Changer>']"
+22817672,1,Text Simplifier,2024-02-01 14:43:26.490405,['latest development in AI technology']
+22817672,1,Text Paraphraser,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+22817672,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+22817672,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+18747356,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+18747356,1,Audio-to-Text,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+18747356,1,Text Translator,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+18747356,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Text Translator>']
+18747356,1,Text-to-Audio,2024-02-01 14:43:30.490405,['<Text Simplifier>']
+18747356,1,Voice Changer,2024-02-01 14:43:31.490405,"['<Text-to-Audio>', 'instructions']"
+18747356,1,Video Synchronization,2024-02-01 14:43:32.490405,"['example.mp4', '<Voice Changer>']"
+90200935,1,Topic Generator,2024-02-01 14:43:26.490405,"['I visited Paris last month and had a great time. The Eiffel Tower was breathtaking, and the food at small cafes was delicious. I loved visiting the Louvre and seeing the Mona Lisa. The Seine River was beautiful at night with all the lights reflecting on the water.']"
+90200935,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Topic Generator>']
+90200935,1,Video Search,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+90200935,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+14551179,1,Text Downloader,2024-02-01 14:43:26.490405,['https://aihealthcare.website']
+14551179,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Downloader>']
+14551179,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Downloader>']"
+24271097,1,Text Downloader,2024-02-01 14:43:26.490405,['URL']
+24271097,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+24271097,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Text Downloader>']"
+98997281,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['Life is a journey, not a destination.']"
+98997281,1,Text Expander,2024-02-01 14:43:27.490405,['<Text Sentiment Analysis>']
+98997281,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Expander>']
+98997281,1,Audio Splicer,2024-02-01 14:43:29.490405,"['example.wav', '<Text-to-Audio>']"
+10598182,1,Text-to-Video,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog.']
+10598182,1,Video Synchronization,2024-02-01 14:43:27.490405,"['<Text-to-Video>', 'example.wav']"
+10598182,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+48797854,1,Text Translator,2024-02-01 14:43:26.490405,['Me encanta este lugar pero las personas no son amables']
+48797854,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Translator>']
+48797854,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+19544544,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+19544544,1,Image Search,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+19544544,1,Topic Generator,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+16103754,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+16103754,1,Article Spinner,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+16103754,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+21611755,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+21611755,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+21611755,1,Topic Generator,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+30542444,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+30542444,1,Text Translator,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+30542444,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Translator>']
+30542444,1,Topic Generator,2024-02-01 14:43:29.490405,['<Text Expander>']
+20187305,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+20187305,1,URL Extractor,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+20187305,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+20187305,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+26867077,1,Audio Downloader,2024-02-01 14:43:26.490405,['<url>']
+26867077,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+26867077,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Audio-to-Image>']
+26867077,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Audio Downloader>', 'example.wav']"
+26867077,1,Image-to-Video,2024-02-01 14:43:30.490405,"['<Image Colorizer>', '<Image Colorizer>']"
+26011848,1,Text-to-Image,2024-02-01 14:43:26.490405,['A beautiful tropical sunset with palm trees.']
+26011848,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Text-to-Image>', 'example.jpg']"
+14284158,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+14284158,1,Audio-to-Image,2024-02-01 14:43:27.490405,['example.wav']
+14284158,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Video-to-Image>', '<Audio-to-Image>']"
+89507301,1,Topic Generator,2024-02-01 14:43:26.490405,['How can technology improve our lives?']
+89507301,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', '<Topic Generator>']"
+32845520,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.mp4']
+32845520,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+32845520,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Voice Changer>']
+32845520,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Video-to-Audio>', 'female']"
+32933884,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+32933884,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+32933884,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+32933884,1,URL Extractor,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+41866981,1,Article Spinner,2024-02-01 14:43:26.490405,['example.txt']
+41866981,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Article Spinner>']
+41866981,1,Image-to-Text,2024-02-01 14:43:28.490405,['example.jpg']
+41866981,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Article Spinner>']
+21060240,1,Topic Generator,2024-02-01 14:43:26.490405,['Artificial Intelligence']
+21060240,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+21060240,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Splicer>', 'apply effects']"
+51432037,1,Image Downloader,2024-02-01 14:43:26.490405,['example.jpg']
+51432037,1,Audio Downloader,2024-02-01 14:43:27.490405,['https://example.com/audio.mp3']
+51432037,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Downloader>']
+51432037,1,Audio Effects,2024-02-01 14:43:29.490405,"['<Audio Downloader>', '<Image-to-Text>']"
+26936771,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+26936771,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'change tone, pitch, and gender']"
+26936771,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Voice Changer>']
+16939652,1,Text Search,2024-02-01 14:43:26.490405,['global warming']
+16939652,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Search>']
+16939652,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+16939652,1,Video Voiceover,2024-02-01 14:43:29.490405,"['example.mp4', '<Text-to-Audio>']"
+37485843,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+37485843,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Colorizer>']
+37485843,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Colorizer>', 'example2.jpg']"
+24984443,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+24984443,1,Text Expander,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+24984443,1,Topic Generator,2024-02-01 14:43:28.490405,['<Text Expander>']
+24984443,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Expander>']
+24984443,1,Audio Noise Reduction,2024-02-01 14:43:30.490405,['<Text-to-Audio>']
+21828988,1,Text-to-Video,2024-02-01 14:43:26.490405,['A cat playing with a toy ball on a green field with the sun setting in the background']
+21828988,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Text-to-Video>', '1.5x']"
+21828988,1,Text-to-Audio,2024-02-01 14:43:28.490405,"['Upbeat, cheerful music to accompany the playful scene']"
+21828988,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text-to-Audio>']"
+21738561,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this amazing vintage photo of New York: http://www.example.com/vintage-photo']
+21738561,1,Image Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+21738561,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Downloader>', 'example.jpg']"
+21738561,1,Image Colorizer,2024-02-01 14:43:29.490405,['<Image Style Transfer>']
+31026865,1,Text-to-Video,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog.']
+31026865,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+31026865,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+31026865,1,Video Search,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+10867142,1,Keyword Extractor,2024-02-01 14:43:26.490405,['article about the advantages of exercise']
+10867142,1,Article Spinner,2024-02-01 14:43:27.490405,['<Keyword Extractor>']
+10867142,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Article Spinner>']
+10867142,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '1.5 times faster']"
+22991334,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/audio.wav']
+22991334,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+22991334,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Audio Noise Reduction>', 'example.wav']"
+22991334,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Audio Splicer>']
+31590988,1,Topic Generator,2024-02-01 14:43:26.490405,['Sustainable living and its benefits']
+31590988,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Topic Generator>']
+31590988,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Text-to-Image>']"
+31590988,1,Video Voiceover,2024-02-01 14:43:29.490405,"['example.mp4', '<Topic Generator>']"
+25827832,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+25827832,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+25827832,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+31456649,1,Text-to-Video,2024-02-01 14:43:26.490405,['Learn to cook spaghetti in a few easy steps']
+31456649,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+31456649,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+31456649,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Stabilizer>']
+13938522,1,Text Expander,2024-02-01 14:43:26.490405,['AI in healthcare']
+13938522,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Expander>']
+13938522,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Expander>']"
+13938522,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Voiceover>', '1.5']"
+33446792,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.wav']
+33446792,1,Voice Changer,2024-02-01 14:43:27.490405,"['<Audio Downloader>', 'I am so excited for this party tonight!']"
+33446792,1,Text Simplifier,2024-02-01 14:43:28.490405,['I am so excited for this party tonight!']
+33446792,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Voice Changer>']
+13805853,1,Text Downloader,2024-02-01 14:43:26.490405,['www.example.com/instructions']
+13805853,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', '<Text Downloader>']"
+13805853,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Downloader>']"
+16294640,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+16294640,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Downloader>']
+16294640,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Text Downloader>']
+16294640,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+19467957,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+19467957,1,Text Search,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+19467957,1,Video Search,2024-02-01 14:43:28.490405,['<Text Search>']
+19467957,1,Video Downloader,2024-02-01 14:43:29.490405,['<Video Search>']
+19467957,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Video Downloader>', '<Text Search>']"
+31380443,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'half speed']"
+31380443,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Video Speed Changer>']
+24012000,1,Text Translator,2024-02-01 14:43:26.490405,"[""J'adore la vie! C'est magnifique!""]"
+24012000,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Translator>']
+24012000,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', '<Text Sentiment Analysis>']"
+16660411,1,Image Search,2024-02-01 14:43:26.490405,['positive teamwork']
+20323840,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+20323840,1,Image Colorizer,2024-02-01 14:43:27.490405,['<Video-to-Image>']
+20323840,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Colorizer>', 'example_style.jpg']"
+20323840,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Style Transfer>', '<Image Style Transfer>']"
+20323840,1,Video-to-Text,2024-02-01 14:43:30.490405,['example.mp4']
+20323840,1,Image Search,2024-02-01 14:43:31.490405,['<Video-to-Text>']
+79253895,1,Text Translator,2024-02-01 14:43:26.490405,['Das Beispielhaus ist ein tolles Haus in der Stadt. Besuchen Sie die Website www.examplehaus.de für weitere Informationen.']
+79253895,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Translator>']
+79253895,1,URL Extractor,2024-02-01 14:43:28.490405,['Das Beispielhaus ist ein tolles Haus in der Stadt. Besuchen Sie die Website www.examplehaus.de für weitere Informationen.']
+16344207,1,Image Stitcher,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+16344207,1,Image Colorizer,2024-02-01 14:43:27.490405,['<Image Stitcher>']
+17004658,1,Text Simplifier,2024-02-01 14:43:26.490405,['long and complicated paragraph']
+17004658,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+17004658,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Keyword Extractor>']"
+23219194,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+23219194,1,Audio Downloader,2024-02-01 14:43:27.490405,['URL']
+23219194,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Audio Downloader>']"
+23219194,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+16964342,1,Image Downloader,2024-02-01 14:43:26.490405,['online image url']
+16964342,1,Image Colorizer,2024-02-01 14:43:27.490405,['example.jpg']
+16964342,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Colorizer>', '<Image Downloader>']"
+91036230,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+91036230,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Downloader>']
+91036230,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+91036230,1,Text Expander,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+25122938,1,Text Search,2024-02-01 14:43:26.490405,['pandas']
+25122938,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Text Search>']
+25122938,1,Image Search,2024-02-01 14:43:28.490405,['pandas']
+11085000,1,Text-to-Image,2024-02-01 14:43:26.490405,['A beautiful sunset over the mountains']
+11085000,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+11085000,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Video-to-Image>']"
+11085000,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Text-to-Image>', '<Image Style Transfer>']"
+14789834,1,Topic Generator,2024-02-01 14:43:26.490405,['Artificial Intelligence and its applications']
+14789834,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', 'make it a 10-minute long video']"
+14789834,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Speed Changer>']
+14789834,1,Audio Splicer,2024-02-01 14:43:29.490405,"['<Video-to-Audio>', 'example.wav']"
+14789834,1,Video Synchronization,2024-02-01 14:43:30.490405,"['<Video Speed Changer>', '<Audio Splicer>']"
+14789834,1,Video Voiceover,2024-02-01 14:43:31.490405,"['<Video Synchronization>', 'The future of AI technology - challenges and opportunities']"
+78344337,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example-video-url.com']
+78344337,1,Text Simplifier,2024-02-01 14:43:27.490405,"['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat est eget odio aliquet, vel porta arcu ullamcorper.']"
+78344337,1,Article Spinner,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+78344337,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Downloader>', '<Article Spinner>']"
+27310813,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example.com/article']
+27310813,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Text Downloader>']
+27310813,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Grammar Checker>']
+27310813,1,URL Extractor,2024-02-01 14:43:29.490405,['<Text Expander>']
+27310813,1,Audio Downloader,2024-02-01 14:43:30.490405,['<URL Extractor>']
+78630559,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/cooking_video']
+78630559,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+78630559,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Downloader>', '1.5']"
+78630559,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Audio Splicer>']"
+20384326,1,Text Downloader,2024-02-01 14:43:26.490405,['example_url.com']
+20384326,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Downloader>']
+20384326,1,Text Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+20384326,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Search>']
+19738017,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example.com/speed_instructions']
+19738017,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+19738017,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Text Downloader>']"
+22807274,1,Text Translator,2024-02-01 14:43:26.490405,['example.txt']
+22807274,1,Text Expander,2024-02-01 14:43:27.490405,['<Text Translator>']
+22807274,1,Text Search,2024-02-01 14:43:28.490405,['<Text Expander>']
+22807274,1,Video Search,2024-02-01 14:43:29.490405,['<Text Search>']
+14738929,1,Text-to-Image,2024-02-01 14:43:26.490405,['A beautiful sunrise over a serene lake']
+14738929,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Text-to-Image>', 'example.jpg']"
+14738929,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+14738929,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Style Transfer>', 'example2.jpg']"
+17902865,1,Text-to-Video,2024-02-01 14:43:26.490405,['A dog rescued a kitten from a tree.']
+17902865,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+17902865,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', 'reverb']"
+14087939,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.mp4']
+14087939,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+14087939,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+14087939,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Downloader>', 'This is the new voiceover script.']"
+28219585,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+28219585,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+28219585,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+28219585,1,Image Search,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+30422289,1,Text Summarizer,2024-02-01 14:43:26.490405,"[""I recently went on a trip to Spain and had an amazing time. The food was delicious, and the people were friendly. The weather was perfect, and I enjoyed visiting the beautiful historical sites. However, I faced some challenges with public transportation as it was not very reliable. Overall, I had a fantastic time and can't wait to go back.""]"
+30422289,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+30422289,1,Text-to-Audio,2024-02-01 14:43:28.490405,['<Text Sentiment Analysis>']
+30422289,1,Text-to-Video,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+30422289,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Text-to-Video>', '<Text-to-Audio>']"
+63302579,1,Image Search,2024-02-01 14:43:26.490405,['delicious frutas tropicales']
+63302579,1,Text Translator,2024-02-01 14:43:27.490405,['delicious frutas tropicales']
+63302579,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Translator>']
+63302579,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Text Expander>']
+22291878,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.jpg']
+22291878,1,Text-to-Image,2024-02-01 14:43:27.490405,['A beautiful mountain landscape with a river flowing through it']
+22291878,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Text-to-Image>', '<Image Downloader>']"
+19419954,1,Text Simplifier,2024-02-01 14:43:26.490405,['example.jpg']
+19419954,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Simplifier>']
+15215274,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+15215274,1,Video Voiceover,2024-02-01 14:43:27.490405,"['<Video Stabilizer>', 'example_script.txt']"
+15215274,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Voiceover>', '<Video Voiceover>']"
+11690244,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+11690244,1,URL Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+11690244,1,Video Search,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+11690244,1,Video-to-Image,2024-02-01 14:43:29.490405,['<Video Search>']
+58364206,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/birthday_video.mp4']
+58364206,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Downloader>']
+58364206,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Downloader>', 'example.wav']"
+58364206,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Video-to-Image>', 'example.jpg']"
+13411703,1,Text Summarizer,2024-02-01 14:43:26.490405,['The development of renewable energy sources in the world.pdf']
+13411703,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Text Summarizer>']"
+32440864,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/voiceover.wav']
+32440864,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+32440864,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio Noise Reduction>']"
+32440864,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+16821206,1,Voice Changer,2024-02-01 14:43:26.490405,"['example1.wav', 'deep pitch, serious tone, female voice']"
+16821206,1,Audio Splicer,2024-02-01 14:43:27.490405,"['<Voice Changer>', 'example2.wav']"
+16821206,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio Splicer>']"
+16821206,1,Audio-to-Text,2024-02-01 14:43:29.490405,['<Audio Splicer>']
+16271492,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+16271492,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+16271492,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+16271492,1,Text Expander,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+16271492,1,Text Summarizer,2024-02-01 14:43:30.490405,['<Text Expander>']
+16271492,1,Video Speed Changer,2024-02-01 14:43:31.490405,"['example.mp4', '<Text Summarizer>']"
+23452089,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/landscape.jpg']
+23452089,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+15649012,1,Audio Effects,2024-02-01 14:43:26.490405,"['example.wav', 'reverb, chorus']"
+15649012,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+15649012,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Audio Effects>']"
+15649012,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+22232379,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.jpg']
+22232379,1,Text-to-Image,2024-02-01 14:43:27.490405,['A beautiful sunset by the beach']
+22232379,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Text-to-Image>']"
+22232379,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Downloader>', '<Image Style Transfer>']"
+60318299,1,Text Simplifier,2024-02-01 14:43:26.490405,['information about the environmental impact of plastic pollution']
+31434931,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+31434931,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+31434931,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Text-to-Image>']
+30148376,1,URL Extractor,2024-02-01 14:43:26.490405,"['Check out this amazing video at www.example-url.com/video.mp4, and the script for the voiceover is: In the world of AI, possibilities are endless.']"
+30148376,1,Video Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+30148376,1,Text Paraphraser,2024-02-01 14:43:28.490405,"['In the world of AI, possibilities are endless.']"
+30148376,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Paraphraser>']
+30148376,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Video Downloader>', '<Text-to-Audio>']"
+22751411,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+22751411,1,Text Search,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+22751411,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Text Search>', 'modify voice']"
+22751411,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Voice Changer>']
+17457368,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/image.jpg']
+17457368,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+17457368,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Video-to-Image>']"
+22160748,1,Audio Downloader,2024-02-01 14:43:26.490405,['provided URL']
+22160748,1,Text-to-Audio,2024-02-01 14:43:27.490405,['example.txt']
+22160748,1,Keyword Extractor,2024-02-01 14:43:28.490405,['example.txt']
+22160748,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Text-to-Audio>', '<Keyword Extractor>']"
+25530001,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/article']
+25530001,1,Article Spinner,2024-02-01 14:43:27.490405,['<Text Downloader>']
+25530001,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Article Spinner>']
+25530001,1,Keyword Extractor,2024-02-01 14:43:29.490405,['<Article Spinner>']
+20317250,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.mp4']
+20317250,1,Text Summarizer,2024-02-01 14:43:27.490405,"['In this video, we will discuss the importance of staying healthy by exercising regularly and maintaining a balanced diet. This includes consuming fresh fruits and vegetables, whole grains, lean proteins, and healthy fats. It is also important to reduce the intake of processed foods, sugar, and unhealthy fats. Regular physical activity helps to maintain a healthy weight, improve cardiovascular health, and enhance mental well-being. By making better choices in our daily routines, we can live a healthier and happier life.']"
+20317250,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Downloader>', '<Text Summarizer>']"
+33030699,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.wav']
+33030699,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Downloader>']
+33030699,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+33030699,1,Image Search (by Image),2024-02-01 14:43:29.490405,['<Audio-to-Image>']
+33030699,1,Image Stitcher,2024-02-01 14:43:30.490405,"['<Image Search (by Image)>', 'example.jpg']"
+33030699,1,Image Colorizer,2024-02-01 14:43:31.490405,['<Image Stitcher>']
+25316827,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+25316827,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+25316827,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Audio-to-Image>']
+25316827,1,Image Search (by Image),2024-02-01 14:43:29.490405,['<Audio-to-Image>']
+70510937,1,Article Spinner,2024-02-01 14:43:26.490405,['The Impact of AI on Humanity']
+70510937,1,Text Grammar Checker,2024-02-01 14:43:27.490405,['<Article Spinner>']
+70510937,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '1.5 times']"
+17404615,1,Video Speed Changer,2024-02-01 14:43:26.490405,"['example.mp4', 'slow down 50%']"
+17404615,1,Text Paraphraser,2024-02-01 14:43:27.490405,['The quick brown fox jumps over the lazy dog.']
+17404615,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', '<Text Paraphraser>']"
+84463175,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+84463175,1,URL Extractor,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+84463175,1,Text Paraphraser,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+13889966,1,Image Downloader,2024-02-01 14:43:26.490405,['example.jpg']
+13889966,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Downloader>']
+13889966,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Downloader>']
+25879377,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+25879377,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Video-to-Image>', 'example.jpg']"
+25879377,1,Video-to-Text,2024-02-01 14:43:28.490405,['example.mp4']
+25879377,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+25300845,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,['This restaurant has the most delicious pizza in town.']
+25300845,1,Text Paraphraser,2024-02-01 14:43:27.490405,['This restaurant has the most delicious pizza in town.']
+25300845,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Paraphraser>']
+22746397,1,Text Expander,2024-02-01 14:43:26.490405,['Awesome trip!']
+22746397,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Expander>']
+22746397,1,Video Stabilizer,2024-02-01 14:43:28.490405,['example.mp4']
+22746397,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Text Expander>']"
+21131990,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+21131990,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Video-to-Audio>']"
+21131990,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+21131990,1,Text Sentiment Analysis,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+21131990,1,Article Spinner,2024-02-01 14:43:30.490405,['<Audio-to-Text>']
+12682645,1,Text Downloader,2024-02-01 14:43:26.490405,['<URL Extractor>']
+12682645,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Downloader>']
+12682645,1,Text Expander,2024-02-01 14:43:28.490405,['<Text Downloader>']
+12682645,1,Audio Downloader,2024-02-01 14:43:29.490405,['<URL Extractor>']
+21449070,1,Text Summarizer,2024-02-01 14:43:26.490405,['presentation script']
+21449070,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+21449070,1,Video Stabilizer,2024-02-01 14:43:28.490405,['example.mp4']
+21449070,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Text-to-Audio>']"
+23583789,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+23583789,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+23583789,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+23583789,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Search>', '<Image Search>']"
+33381980,1,Text Search,2024-02-01 14:43:26.490405,['example.wav guitar tutorial']
+33381980,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Search>']
+33381980,1,Text Grammar Checker,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+33381980,1,Audio Downloader,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+33381980,1,Voice Changer,2024-02-01 14:43:30.490405,"['<Audio Downloader>', 'higher pitch']"
+33381980,1,Audio Splicer,2024-02-01 14:43:31.490405,"['<Voice Changer>', '<Voice Changer>']"
+14531879,1,Text Simplifier,2024-02-01 14:43:26.490405,['example.txt']
+14531879,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+14531879,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Text Simplifier>']"
+14531879,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Voiceover>']
+15191895,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+15191895,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Colorizer>', 'example2.jpg']"
+15191895,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Colorizer>', '<Image Style Transfer>']"
+16994185,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/blog-article']
+16994185,1,Voice Changer,2024-02-01 14:43:27.490405,"['example.wav', 'confident']"
+16994185,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Voice Changer>']
+16994185,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio Noise Reduction>']"
+92103059,1,Text Translator,2024-02-01 14:43:26.490405,"['Bonjour, je suis heureux!']"
+92103059,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Translator>']
+92103059,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Topic Generator>']
+92103059,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Text Sentiment Analysis>']"
+92103059,1,Video-to-Image,2024-02-01 14:43:30.490405,['<Video Speed Changer>']
+29115638,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+29115638,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+29115638,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+29115638,1,Audio-to-Image,2024-02-01 14:43:29.490405,['<Video-to-Audio>']
+49012145,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+49012145,1,Keyword Extractor,2024-02-01 14:43:27.490405,['example.txt']
+49012145,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Keyword Extractor>']"
+13096921,1,Image Downloader,2024-02-01 14:43:26.490405,['http://example.com/example.jpg']
+13096921,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Image Downloader>']
+13096921,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Downloader>']
+31155403,1,Text Downloader,2024-02-01 14:43:26.490405,['https://example.com/instructions']
+31155403,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', '<Text Downloader>']"
+31155403,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Speed Changer>', 'example.wav']"
+31155403,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+31155403,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', '<Text Downloader>']"
+19732630,1,Image Downloader,2024-02-01 14:43:26.490405,['example_url.jpg']
+19732630,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example_style.jpg']"
+19732630,1,Image Search (by Image),2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+19732630,1,Image-to-Text,2024-02-01 14:43:29.490405,['<Image Search (by Image)>']
+26392764,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+26392764,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Colorizer>', 'another_example.jpg']"
+26392764,1,Video-to-Audio,2024-02-01 14:43:28.490405,['<Image-to-Video>']
+26392764,1,Audio Noise Reduction,2024-02-01 14:43:29.490405,['<Video-to-Audio>']
+29430318,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+29430318,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Video-to-Image>']
+29430318,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Video-to-Image>']
+14470545,1,Image Downloader,2024-02-01 14:43:26.490405,['www.example.com/image.jpg']
+14470545,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Image Downloader>']
+14470545,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Downloader>', '<Image Search (by Image)>']"
+14470545,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', 'Introducing our new product line for 2023.']"
+31707871,1,Text Translator,2024-02-01 14:43:26.490405,['las abejas son insectos beneficiosos para el medio ambiente']
+31707871,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Translator>']
+31707871,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+31707871,1,Voice Changer,2024-02-01 14:43:29.490405,"['example.wav', '<Keyword Extractor>']"
+26461454,1,Text Expander,2024-02-01 14:43:26.490405,['Important meeting at 3 PM.']
+26461454,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+26461454,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Audio Splicer>', 'friendly female voice']"
+30086392,1,Image Colorizer,2024-02-01 14:43:26.490405,['example.jpg']
+30086392,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Image Colorizer>']
+30086392,1,Topic Generator,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+30086392,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+28919479,1,Text Summarizer,2024-02-01 14:43:26.490405,['example.png']
+28919479,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+28919479,1,Video-to-Audio,2024-02-01 14:43:28.490405,['example.mp4']
+28842243,1,Text Search,2024-02-01 14:43:26.490405,['sustainable energy solutions']
+28842243,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Search>']
+28842243,1,Text Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+28842243,1,Text Summarizer,2024-02-01 14:43:29.490405,['<Text Downloader>']
+28842243,1,Text-to-Video,2024-02-01 14:43:30.490405,['<Text Summarizer>']
+30055140,1,Image-to-Text,2024-02-01 14:43:26.490405,['input image']
+30055140,1,Text-to-Image,2024-02-01 14:43:27.490405,['Happy Birthday']
+30055140,1,Image Search,2024-02-01 14:43:28.490405,['Happy Birthday']
+30055140,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Text-to-Image>', '<Image Search>']"
+15077429,1,Text Downloader,2024-02-01 14:43:26.490405,['example.com/article']
+15077429,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Downloader>']
+15077429,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Downloader>']
+15077429,1,Image Search,2024-02-01 14:43:29.490405,['<Keyword Extractor>']
+93010216,1,Topic Generator,2024-02-01 14:43:26.490405,['emerging technologies']
+93010216,1,Audio Effects,2024-02-01 14:43:27.490405,"['example.wav', 'various effects']"
+17470699,1,Video Voiceover,2024-02-01 14:43:26.490405,"['example.mp4', 'Machine learning solutions for data analysis.']"
+17470699,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Voiceover>']
+17470699,1,Image Stitcher,2024-02-01 14:43:28.490405,"['<Video-to-Image>', 'example.jpg']"
+27529736,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example-url.com']
+27529736,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Downloader>']
+27529736,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Text-to-Audio>', 'female']"
+27529736,1,Article Spinner,2024-02-01 14:43:29.490405,['<Text Downloader>']
+27529736,1,Topic Generator,2024-02-01 14:43:30.490405,['<Text Downloader>']
+14868473,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+14868473,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+14868473,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Text-to-Audio>']
+14868473,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+14868473,1,Text Expander,2024-02-01 14:43:30.490405,['<Text Grammar Checker>']
+30969691,1,Image Downloader,2024-02-01 14:43:26.490405,['example.jpg']
+30969691,1,Image Search (by Image),2024-02-01 14:43:27.490405,['<Image Downloader>']
+30969691,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Search (by Image)>']
+30969691,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Image Colorizer>', '<Image Colorizer>']"
+30969691,1,Image-to-Video,2024-02-01 14:43:30.490405,"['<Image Stitcher>', '<Image Stitcher>']"
+36677025,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+36677025,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Downloader>']
+36677025,1,Keyword Extractor,2024-02-01 14:43:28.490405,['<Text Downloader>']
+36677025,1,Text Grammar Checker,2024-02-01 14:43:29.490405,['<Text Downloader>']
+36677025,1,Text Translator,2024-02-01 14:43:30.490405,['<Text Downloader>']
+64724677,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+64724677,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Audio Splicer>']"
+64724677,1,Audio-to-Image,2024-02-01 14:43:28.490405,['<Audio Splicer>']
+64724677,1,Image Search (by Image),2024-02-01 14:43:29.490405,['<Audio-to-Image>']
+24173977,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/video.mp4']
+24173977,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+24173977,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+24173977,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Downloader>']
+33125664,1,Audio Downloader,2024-02-01 14:43:26.490405,['https://example.com/audio']
+33125664,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+33125664,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Audio Downloader>']"
+19035461,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this video tutorial: https://www.example.com/video.mp4']
+19035461,1,Video Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+19035461,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Video Downloader>', 'example.wav']"
+19035461,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['<Video Synchronization>', '1.5x']"
+19035461,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Video Speed Changer>', 'In this tutorial, we will learn...']"
+24773982,1,Text-to-Video,2024-02-01 14:43:26.490405,"['The beautiful landscape features a serene lake surrounded by green hills, with a small village nestled in the valley. The sun casts a warm glow on the scene, highlighting the vibrant colors of the foliage. Birds can be heard singing in the trees, as a gentle breeze rustles their leaves.']"
+24773982,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+24773982,1,Video-to-Text,2024-02-01 14:43:28.490405,['example.mp4']
+24773982,1,Text Simplifier,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+32750718,1,URL Extractor,2024-02-01 14:43:26.490405,['Check this image URL: https://example.com/image.png']
+32750718,1,Image Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+32750718,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Downloader>']
+32750718,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Image Downloader>', 'example.jpg']"
+25895885,1,Text Downloader,2024-02-01 14:43:26.490405,['https://www.example-url.com/article']
+25895885,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+25895885,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Text Sentiment Analysis>']"
+25895885,1,Voice Changer,2024-02-01 14:43:29.490405,"['example.wav', '<Text Sentiment Analysis>']"
+25895885,1,Video Voiceover,2024-02-01 14:43:30.490405,"['<Video Speed Changer>', '<Voice Changer>']"
+24053280,1,Text Grammar Checker,2024-02-01 14:43:26.490405,['Please aplly reverb effect on example.wav and download vidoe from https:whateverprovider.com/exapmle']
+24053280,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Grammar Checker>']
+24053280,1,Video Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+24053280,1,Keyword Extractor,2024-02-01 14:43:29.490405,['<Text Grammar Checker>']
+24053280,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', '<Keyword Extractor>']"
+52198592,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+52198592,1,Video Voiceover,2024-02-01 14:43:27.490405,"['example.mp4', '<Image-to-Text>']"
+52198592,1,URL Extractor,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+24271556,1,Video Search,2024-02-01 14:43:26.490405,['sunset']
+24271556,1,Video Downloader,2024-02-01 14:43:27.490405,['<Video Search>']
+24271556,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Downloader>']
+24271556,1,Audio-to-Image,2024-02-01 14:43:29.490405,['example.wav']
+24271556,1,Image-to-Video,2024-02-01 14:43:30.490405,"['<Video-to-Image>', '<Audio-to-Image>']"
+27949356,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+27949356,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Video-to-Audio>']
+27949356,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', 'example.wav']"
+26159720,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/interesting-video.mp4']
+26159720,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+26159720,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['<Video Downloader>', '1.5']"
+26159720,1,Text Search,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+16089833,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+16089833,1,Audio Effects,2024-02-01 14:43:27.490405,"['<Video-to-Audio>', 'add reverb and equalization']"
+16089833,1,Article Spinner,2024-02-01 14:43:28.490405,['example.txt']
+16089833,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio Effects>']"
+44761057,1,URL Extractor,2024-02-01 14:43:26.490405,['text']
+44761057,1,Image Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+44761057,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Downloader>', 'example.jpg']"
+20788083,1,Text Simplifier,2024-02-01 14:43:26.490405,['The quick brown fox jumps over the lazy dog.']
+20788083,1,Video Stabilizer,2024-02-01 14:43:27.490405,['example.mp4']
+20788083,1,Video Voiceover,2024-02-01 14:43:28.490405,"['<Video Stabilizer>', '<Text Simplifier>']"
+20788083,1,Text-to-Video,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+20788083,1,Video-to-Text,2024-02-01 14:43:30.490405,['<Video Voiceover>']
+10470289,1,Text Translator,2024-02-01 14:43:26.490405,['Spanish text']
+10470289,1,URL Extractor,2024-02-01 14:43:27.490405,['<Text Translator>']
+10470289,1,Audio Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+10470289,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio Downloader>']"
+33153230,1,Image Search,2024-02-01 14:43:26.490405,['how to care for succulents']
+33153230,1,Audio Downloader,2024-02-01 14:43:27.490405,['example.wav']
+33153230,1,Image Downloader,2024-02-01 14:43:28.490405,['example.jpg']
+33340135,1,Text Summarizer,2024-02-01 14:43:26.490405,['Lorem ipsum dolor sit amet...']
+33340135,1,Keyword Extractor,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+33340135,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+33340135,1,URL Extractor,2024-02-01 14:43:29.490405,['Lorem ipsum dolor sit amet...']
+33340135,1,Image Downloader,2024-02-01 14:43:30.490405,['<URL Extractor>']
+20974605,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+20974605,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+20974605,1,Text Sentiment Analysis,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+20974605,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Stabilizer>']
+20974605,1,Voice Changer,2024-02-01 14:43:30.490405,"['<Video-to-Audio>', 'instructions']"
+21494947,1,Topic Generator,2024-02-01 14:43:26.490405,['What are the major benefits of electric cars?']
+21494947,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Topic Generator>']
+21494947,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Text-to-Image>']
+21494947,1,Text Translator,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+21494947,1,URL Extractor,2024-02-01 14:43:30.490405,['<Text Translator>']
+21494947,1,Audio Downloader,2024-02-01 14:43:31.490405,['<URL Extractor>']
+21494947,1,Audio-to-Image,2024-02-01 14:43:32.490405,['<Audio Downloader>']
+21815790,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['I love this beautiful autumn day, the colors are so vibrant and the weather is perfect.']"
+21815790,1,Keyword Extractor,2024-02-01 14:43:27.490405,"['I love this beautiful autumn day, the colors are so vibrant and the weather is perfect.']"
+21815790,1,Image Search,2024-02-01 14:43:28.490405,['<Keyword Extractor>']
+11517294,1,Audio Noise Reduction,2024-02-01 14:43:26.490405,['example.wav']
+11517294,1,Video Synchronization,2024-02-01 14:43:27.490405,"['example.mp4', '<Audio Noise Reduction>']"
+11517294,1,Video-to-Image,2024-02-01 14:43:28.490405,['<Video Synchronization>']
+11517294,1,Video-to-Text,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+30154358,1,Text Expander,2024-02-01 14:43:26.490405,"['In this video, we explore exciting destinations.']"
+30154358,1,Video Voiceover,2024-02-01 14:43:27.490405,"['example.mp4', '<Text Expander>']"
+30154358,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Expander>']
+59617358,1,Text-to-Audio,2024-02-01 14:43:26.490405,"['Blockchain technology is a decentralized, distributed, digital ledger that is used for record transactions. It allows multiple parties to collaborate and have a single version of the truth.']"
+59617358,1,Video Voiceover,2024-02-01 14:43:27.490405,"['example.mp4', '<Text-to-Audio>']"
+59617358,1,Text-to-Video,2024-02-01 14:43:28.490405,"['Blockchain technology is a decentralized, distributed, digital ledger that is used for record transactions. It allows multiple parties to collaborate and have a single version of the truth.']"
+35125517,1,Text Expander,2024-02-01 14:43:26.490405,['Add reverb and EQ bass boost']
+35125517,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+35125517,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Splicer>', '<Text Expander>']"
+13139218,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+13139218,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+13139218,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Stabilizer>']
+32426140,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+32426140,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Stabilizer>']
+26187047,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+26187047,1,Audio Splicer,2024-02-01 14:43:27.490405,"['example1.wav', 'example2.wav']"
+26187047,1,Video Synchronization,2024-02-01 14:43:28.490405,"['<Image-to-Video>', '<Audio Splicer>']"
+26187047,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+66452793,1,Text Summarizer,2024-02-01 14:43:26.490405,['lengthy text about my recent vacation']
+66452793,1,Text Expander,2024-02-01 14:43:27.490405,['lengthy text about my recent vacation']
+66452793,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+66452793,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Text-to-Image>', 'example.jpg']"
+30398383,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+30398383,1,Text-to-Image,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+30398383,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Text-to-Image>', 'example.jpg']"
+32944665,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+32944665,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['example.wav']
+32944665,1,Video Synchronization,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio Noise Reduction>']"
+32944665,1,Video Stabilizer,2024-02-01 14:43:29.490405,['<Video Synchronization>']
+25623465,1,Text-to-Video,2024-02-01 14:43:26.490405,['Climate change is a pressing issue for the whole world']
+25623465,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Text-to-Video>']
+25623465,1,Image-to-Video,2024-02-01 14:43:28.490405,"['example.jpg', '<Video Stabilizer>']"
+12191611,1,Audio Effects,2024-02-01 14:43:26.490405,"['example.wav', 'reverb']"
+12191611,1,Audio Noise Reduction,2024-02-01 14:43:27.490405,['<Audio Effects>']
+12191611,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Audio Noise Reduction>']
+12191611,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio Noise Reduction>']"
+20717412,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,"['I had a fantastic time at the beach today, the weather was perfect and I managed to get some great photos.']"
+20717412,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['example.mp4', '<Text Sentiment Analysis>']"
+20717412,1,Voice Changer,2024-02-01 14:43:28.490405,"['example.wav', 'instructions']"
+20717412,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Voice Changer>']"
+25217205,1,Text Translator,2024-02-01 14:43:26.490405,['Le petit chat est mignon']
+25217205,1,Text-to-Audio,2024-02-01 14:43:27.490405,['<Text Translator>']
+25217205,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Translator>']
+23508450,1,Video-to-Text,2024-02-01 14:43:26.490405,['example.mp4']
+23508450,1,Text Simplifier,2024-02-01 14:43:27.490405,['<Video-to-Text>']
+23508450,1,Text-to-Video,2024-02-01 14:43:28.490405,['<Text Simplifier>']
+23508450,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Simplifier>']
+27958462,1,Audio Downloader,2024-02-01 14:43:26.490405,['example.com/audio1.wav']
+27958462,1,Text-to-Audio,2024-02-01 14:43:27.490405,['The quick brown fox jumps over the lazy dog']
+27958462,1,Audio Splicer,2024-02-01 14:43:28.490405,"['<Audio Downloader>', '<Text-to-Audio>']"
+26269578,1,Text Sentiment Analysis,2024-02-01 14:43:26.490405,['This video is about the beautiful scenery of New Zealand and the amazing adventures one can experience while traveling there.']
+26269578,1,Topic Generator,2024-02-01 14:43:27.490405,['<Text Sentiment Analysis>']
+26269578,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', '<Text Sentiment Analysis>']"
+26269578,1,Video Synchronization,2024-02-01 14:43:29.490405,"['example.mp4', '<Audio Effects>']"
+30679212,1,Image Stitcher,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+30679212,1,Image Search (by Image),2024-02-01 14:43:27.490405,['example image search']
+30679212,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Image Stitcher>', '<Image Search (by Image)>']"
+24902388,1,Image Style Transfer,2024-02-01 14:43:26.490405,"['example_content.jpg', 'example_style.jpg']"
+24902388,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Image Style Transfer>', 'example_snd_img.jpg']"
+24902388,1,Video-to-Text,2024-02-01 14:43:28.490405,['example_video.mp4']
+24902388,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', '<Video-to-Text>']"
+97783628,1,Image Stitcher,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+97783628,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+97783628,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Stitcher>', '<Video-to-Image>']"
+22549398,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+22549398,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Audio-to-Image>', 'example.jpg']"
+22549398,1,Image-to-Video,2024-02-01 14:43:28.490405,"['<Image Stitcher>', '<Image Stitcher>']"
+22549398,1,Text Paraphraser,2024-02-01 14:43:29.490405,['This is a tutorial on how to create a video with audio visualizations.']
+22549398,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', 'chorus']"
+14281432,1,Audio Splicer,2024-02-01 14:43:26.490405,"['example1.wav', 'example2.wav']"
+14281432,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Splicer>']
+14281432,1,Video-to-Image,2024-02-01 14:43:28.490405,['example.mp4']
+14281432,1,Image Style Transfer,2024-02-01 14:43:29.490405,"['<Audio-to-Image>', '<Video-to-Image>']"
+15187980,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+15187980,1,URL Extractor,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+15187980,1,Image Downloader,2024-02-01 14:43:28.490405,['<URL Extractor>']
+15187980,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Downloader>', '<Image Downloader>']"
+57308810,1,Image-to-Video,2024-02-01 14:43:26.490405,"['example1.jpg', 'example2.jpg']"
+57308810,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Image-to-Video>']
+57308810,1,Audio Noise Reduction,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+57308810,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Image-to-Video>', 'Share your adventures with our new travel app.']"
+18197804,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+18197804,1,Image Stitcher,2024-02-01 14:43:27.490405,"['<Audio-to-Image>', 'example.jpg']"
+18197804,1,Image Colorizer,2024-02-01 14:43:28.490405,['<Image Stitcher>']
+19082414,1,Video Downloader,2024-02-01 14:43:26.490405,['example.mp4']
+19082414,1,Video-to-Image,2024-02-01 14:43:27.490405,['<Video Downloader>']
+19082414,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Image>']
+19082414,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Video-to-Image>', 'example.jpg']"
+41179472,1,Image Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/myimage.png']
+41179472,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example.jpg']"
+31599319,1,Article Spinner,2024-02-01 14:43:26.490405,['Artificial Intelligence is revolutionizing the world of technology']
+31599319,1,Topic Generator,2024-02-01 14:43:27.490405,['<Article Spinner>']
+31599319,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Article Spinner>']
+24622789,1,Text Downloader,2024-02-01 14:43:26.490405,['example.txt']
+24622789,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Downloader>']
+24622789,1,Text Summarizer,2024-02-01 14:43:28.490405,['<Text Downloader>']
+24622789,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Text Summarizer>']"
+31424785,1,Image Downloader,2024-02-01 14:43:26.490405,['https://example.com/image.jpg']
+31424785,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Image Downloader>', 'example_style.jpg']"
+31424785,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+19048020,1,Article Spinner,2024-02-01 14:43:26.490405,['article about the benefits of exercising regularly']
+19048020,1,Video Search,2024-02-01 14:43:27.490405,['<Article Spinner>']
+19048020,1,URL Extractor,2024-02-01 14:43:28.490405,['<Article Spinner>']
+12139770,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+12139770,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Audio-to-Image>']
+12139770,1,Video Speed Changer,2024-02-01 14:43:28.490405,"['example.mp4', '<Image-to-Text>']"
+25140246,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+25140246,1,Image Style Transfer,2024-02-01 14:43:27.490405,"['<Audio-to-Image>', 'example.jpg']"
+25140246,1,Image Search (by Image),2024-02-01 14:43:28.490405,['<Image Style Transfer>']
+25140246,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Image Style Transfer>', '<Image Search (by Image)>']"
+65316510,1,Video Voiceover,2024-02-01 14:43:26.490405,"['example.mp4', 'example_script.txt']"
+65316510,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Video Voiceover>', 'speed_instructions.txt']"
+65316510,1,Video-to-Text,2024-02-01 14:43:28.490405,['<Video Speed Changer>']
+65316510,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Speed Changer>']
+65316510,1,Audio Noise Reduction,2024-02-01 14:43:30.490405,['<Video-to-Audio>']
+54987328,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out these wallpapers at example.com']
+54987328,1,Image Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+54987328,1,Image-to-Text,2024-02-01 14:43:28.490405,['<Image Downloader>']
+54987328,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Image-to-Text>']
+54987328,1,Image-to-Video,2024-02-01 14:43:30.490405,"['<Image Downloader>', '<Text-to-Image>']"
+39309377,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+39309377,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+39309377,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Audio-to-Text>']
+17925419,1,Audio Noise Reduction,2024-02-01 14:43:26.490405,['example.wav']
+17925419,1,Audio-to-Image,2024-02-01 14:43:27.490405,['<Audio Noise Reduction>']
+17925419,1,Video-to-Image,2024-02-01 14:43:28.490405,['example.mp4']
+17925419,1,Image-to-Video,2024-02-01 14:43:29.490405,"['<Audio-to-Image>', '<Video-to-Image>']"
+29422772,1,URL Extractor,2024-02-01 14:43:26.490405,"['This is an example text, and it contains a URL: https://www.example.com/article_example_ru. Also, there is an image URL: https://www.example.com/example.jpg']"
+29422772,1,Text Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+29422772,1,Text Translator,2024-02-01 14:43:28.490405,['<Text Downloader>']
+29422772,1,Image Downloader,2024-02-01 14:43:29.490405,['https://www.example.com/example.jpg']
+70783002,1,Audio-to-Text,2024-02-01 14:43:26.490405,['example.wav']
+70783002,1,Topic Generator,2024-02-01 14:43:27.490405,['<Audio-to-Text>']
+70783002,1,Video Voiceover,2024-02-01 14:43:28.490405,"['example.mp4', '<Audio-to-Text>']"
+74926610,1,Video-to-Image,2024-02-01 14:43:26.490405,['<input_video>']
+74926610,1,Image-to-Video,2024-02-01 14:43:27.490405,"['<Video-to-Image>', '<input_image>']"
+74926610,1,Video-to-Text,2024-02-01 14:43:28.490405,['<input_video>']
+74926610,1,Article Spinner,2024-02-01 14:43:29.490405,['<Video-to-Text>']
+92239854,1,Video-to-Image,2024-02-01 14:43:26.490405,['example.mp4']
+92239854,1,Text Summarizer,2024-02-01 14:43:27.490405,"['The landscape boasts of rolling hills, a serene lake, and a colorful meadow overflowing with wildflowers. The sky displays a brilliant combination of sunset shades, casting a warm glow over the valley below.']"
+92239854,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+92239854,1,Image Stitcher,2024-02-01 14:43:29.490405,"['<Text-to-Image>', '<Video-to-Image>']"
+14995373,1,URL Extractor,2024-02-01 14:43:26.490405,['Check out this amazing podcast at https://www.example.com/podcast/example.wav and apply a reverb effect to it. Then transcribe the content into text.']
+14995373,1,Audio Downloader,2024-02-01 14:43:27.490405,['<URL Extractor>']
+14995373,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Audio Downloader>', 'reverb']"
+14995373,1,Audio-to-Text,2024-02-01 14:43:29.490405,['<Audio Effects>']
+29787811,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+29787811,1,Text Simplifier,2024-02-01 14:43:27.490405,['Change the pitch and tone to sound more like a woman speaking.']
+29787811,1,Voice Changer,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Text Simplifier>']"
+68185495,1,Video Downloader,2024-02-01 14:43:26.490405,['www.example.com/video.mp4']
+68185495,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Video Downloader>', 'Slow down during discussions on lenses and aperture, speed up during discussions on camera filters and tripods.']"
+53950808,1,Image-to-Text,2024-02-01 14:43:26.490405,['example.jpg']
+53950808,1,Text Search,2024-02-01 14:43:27.490405,['<Image-to-Text>']
+53950808,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Search>']
+53950808,1,Text Downloader,2024-02-01 14:43:29.490405,['<URL Extractor>']
+53950808,1,Audio Effects,2024-02-01 14:43:30.490405,"['example.wav', '<Text Downloader>']"
+18562405,1,Audio-to-Image,2024-02-01 14:43:26.490405,['example.wav']
+18562405,1,Image-to-Text,2024-02-01 14:43:27.490405,['<Audio-to-Image>']
+18562405,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Image-to-Text>']
+18562405,1,Video Speed Changer,2024-02-01 14:43:29.490405,"['example.mp4', '<Image-to-Text>']"
+63351648,1,Text-to-Image,2024-02-01 14:43:26.490405,['a beautiful sunset at the beach']
+63351648,1,Video-to-Image,2024-02-01 14:43:27.490405,['example.mp4']
+63351648,1,Image Style Transfer,2024-02-01 14:43:28.490405,"['<Video-to-Image>', '<Text-to-Image>']"
+20012827,1,Text Translator,2024-02-01 14:43:26.490405,['example.txt']
+20012827,1,Text Summarizer,2024-02-01 14:43:27.490405,['<Text Translator>']
+20012827,1,Topic Generator,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+20012827,1,Text-to-Image,2024-02-01 14:43:29.490405,['<Text Summarizer>']
+20012827,1,Image Stitcher,2024-02-01 14:43:30.490405,"['<Text-to-Image>', 'example.jpg']"
+99179548,1,Text Summarizer,2024-02-01 14:43:26.490405,['A healthy diet is a diet that helps to maintain or improve overall health...']
+99179548,1,Text-to-Video,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+99179548,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Text Summarizer>']
+99179548,1,Image Colorizer,2024-02-01 14:43:29.490405,['<Text-to-Image>']
+15744573,1,Video-to-Audio,2024-02-01 14:43:26.490405,['example.mp4']
+15744573,1,Keyword Extractor,2024-02-01 14:43:27.490405,"['The concert was amazing with great lights, and the sound quality of the band was perfect. We experienced a fantastic atmosphere and the crowd was energetic.']"
+15744573,1,Audio Effects,2024-02-01 14:43:28.490405,"['<Video-to-Audio>', '<Keyword Extractor>']"
+23680567,1,Text Expander,2024-02-01 14:43:26.490405,"[""L'Internet est génial!""]"
+23680567,1,Text Translator,2024-02-01 14:43:27.490405,['<Text Expander>']
+23680567,1,URL Extractor,2024-02-01 14:43:28.490405,['<Text Translator>']
+23680567,1,Text-to-Audio,2024-02-01 14:43:29.490405,['<Text Translator>']
+22791898,1,Video Downloader,2024-02-01 14:43:26.490405,['https://example.com/video']
+22791898,1,Video Stabilizer,2024-02-01 14:43:27.490405,['<Video Downloader>']
+22791898,1,Voice Changer,2024-02-01 14:43:28.490405,"['example.wav', 'Increase pitch by 2 semitones and decrease the tone by 20%']"
+22791898,1,Video Synchronization,2024-02-01 14:43:29.490405,"['<Video Stabilizer>', '<Voice Changer>']"
+16686027,1,Video Stabilizer,2024-02-01 14:43:26.490405,['example.mp4']
+16686027,1,Video Speed Changer,2024-02-01 14:43:27.490405,"['<Video Stabilizer>', 'adjust speed']"
+16686027,1,Text Downloader,2024-02-01 14:43:28.490405,['URL']
+16686027,1,Video Voiceover,2024-02-01 14:43:29.490405,"['<Video Speed Changer>', '<Text Downloader>']"
+22309304,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example.mp4']
+22309304,1,Video-to-Text,2024-02-01 14:43:27.490405,['<Video Downloader>']
+22309304,1,Image Search,2024-02-01 14:43:28.490405,['<Video-to-Text>']
+22309304,1,Video-to-Audio,2024-02-01 14:43:29.490405,['<Video Downloader>']
+24378191,1,Video Downloader,2024-02-01 14:43:26.490405,['https://www.example.com/example-video.mp4']
+24378191,1,Video-to-Audio,2024-02-01 14:43:27.490405,['<Video Downloader>']
+24378191,1,Audio-to-Text,2024-02-01 14:43:28.490405,['<Video-to-Audio>']
+24378191,1,Article Spinner,2024-02-01 14:43:29.490405,['<Audio-to-Text>']
+24378191,1,Text-to-Image,2024-02-01 14:43:30.490405,['<Article Spinner>']
+29419608,1,Topic Generator,2024-02-01 14:43:26.490405,['gardening tips']
+29419608,1,Article Spinner,2024-02-01 14:43:27.490405,['<Topic Generator>']
+29419608,1,Text-to-Image,2024-02-01 14:43:28.490405,['<Article Spinner>']
+27517183,1,Text Summarizer,2024-02-01 14:43:26.490405,['long text']
+27517183,1,Text Sentiment Analysis,2024-02-01 14:43:27.490405,['<Text Summarizer>']
+27517183,1,Audio Effects,2024-02-01 14:43:28.490405,"['example.wav', '<Text Sentiment Analysis>']"
+27517183,1,Voice Changer,2024-02-01 14:43:29.490405,"['<Audio Effects>', 'female']"
+27517183,1,Audio Splicer,2024-02-01 14:43:30.490405,"['<Voice Changer>', 'example2.wav']"
