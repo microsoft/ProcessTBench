@@ -1,14 +1,29 @@
-# Project
+# Improving Plan Generation in Large Language Models with Process Mining
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+```
+## Different Plans For Problems
+This section contains different plans that can be used to provide the bjectives of the problems in process ids. x1_planner.py is used for this purpose. 
 
-As the maintainer of this project, please make a few updates:
+## Diffrent Problems 
+we rephrase the problems given in TaskBench Dataset (https://github.com/microsoft/JARVIS/tree/main/taskbench)
+x2_rephrasing is used for this purpose. 
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Models
+We discovered process models of the generated plans. We used inductive miner with three different thresholds, i.e., 0, 0.1, and 0.2 for this purpose. We also converted reference DAGs of problems into Petri nets. 
+
+## Conformance Quality
+We provided conformance checking quality of generated plans for rephrased problems. 
+
+# TaskBench data that is used in this dataset
+├── taskbench_multimedia.json
+├── taskbench_multimedia_dag.json
+├── taskbench_multimedia_dag_partitioned.json # partitioned for multiprocessing
+├── tool_desc_multimedia.json
+
+├── utils.py
+├── my_model.py
+├── readme.md
+└── requirements.txt
 
 ## Contributing
 
