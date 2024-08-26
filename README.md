@@ -1,18 +1,18 @@
 # Improving Plan Generation in Large Language Models with Process Mining
 
 ```
-## Different Plans For Problems
-This section contains different plans that can be used to provide the bjectives of the problems in process ids. x1_planner.py is used for this purpose. 
+## generated_plans_and_variants
+This section contains different plans that can be used to provide the bjectives of the problems in process ids. Generated using generate_plans_and_variants.py
 
-## Diffrent Problems 
-we rephrase the problems given in TaskBench Dataset (https://github.com/microsoft/JARVIS/tree/main/taskbench)
-x2_rephrasing is used for this purpose. 
+## paraphrased_queries 
+we paraphrase the problems given in the TaskBench Dataset (https://github.com/microsoft/JARVIS/tree/main/taskbench)
+Generated using paraphrase_queries.py
 
-## Models
-We discovered process models of the generated plans. We used inductive miner with three different thresholds, i.e., 0, 0.1, and 0.2 for this purpose. We also converted reference DAGs of problems into Petri nets. 
+## process_models
+We discovered process models of the generated plans. We used inductive miner with three different thresholds, i.e., 0, 0.1, and 0.2 for this purpose. We also converted reference DAGs of problems into Petri nets. Examples of how to generate more in dag_to_petri_net_results.py
 
-## Conformance Quality
-We provided conformance checking quality of generated plans for rephrased problems. 
+## conformance_quality
+Contains the results of checking the quality of the paraphrased queries via conformance checking. Generated plans using generate_plans_conformance_quality_rephrased.py and generate_plans_conformance_quality_original.py
 
 # TaskBench data that is used in this dataset
 ├── taskbench_multimedia.json
@@ -21,7 +21,7 @@ We provided conformance checking quality of generated plans for rephrased proble
 ├── tool_desc_multimedia.json
 
 ├── utils.py
-├── my_model.py
+├── my_model.py # embedding and LLM model settings
 ├── readme.md
 └── requirements.txt
 
